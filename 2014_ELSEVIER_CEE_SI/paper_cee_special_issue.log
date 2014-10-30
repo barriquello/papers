@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  11 AUG 2014 16:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  30 OCT 2014 09:22
 entering extended mode
 **paper_cee_special_issue.tex
 
-(C:\DADOS_LOCAIS\PESQUISA\ARTIGOS\ARTIGO_ELSEVIER_CEE_SI\paper_cee_special_issu
-e.tex
+(C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,7 +14,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(C:\DADOS_LOCAIS\PESQUISA\ARTIGOS\ARTIGO_ELSEVIER_CEE_SI\elsarticle.cls
+(C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\elsarticle.cls
 Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
 \@bls=\dimen102
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -97,8 +96,8 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-(C:\DADOS_LOCAIS\PESQUISA\ARTIGOS\ARTIGO_ELSEVIER_CEE_SI\paper_cee_special_issu
-e.spl) (C:\DADOS_LOCAIS\PESQUISA\ARTIGOS\ARTIGO_ELSEVIER_CEE_SI\natbib.sty
+(C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.spl
+) (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\natbib.sty
 Package: natbib 1998/07/14 6.8c (PWD)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -866,8 +865,8 @@ aries\decorations\pgflibrarydecorations.shapes.code.tex")))
 tendlayer\tikz\libraries\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )
-(C:\DADOS_LOCAIS\PESQUISA\ARTIGOS\ARTIGO_ELSEVIER_CEE_SI\paper_cee_special_issu
-e.aux)
+(C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
@@ -960,10 +959,10 @@ Underfull \vbox (badness 6396) has occurred while \output is active []
 
  [2]
 Package epstopdf Info: Source file: <figures/RPL_DIO.eps>
-(epstopdf)                    date: 2014-07-30 09:55:59
+(epstopdf)                    date: 2014-07-30 10:55:59
 (epstopdf)                    size: 173326 bytes
 (epstopdf)             Output file: <figures/RPL_DIO-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-07 15:19:25
+(epstopdf)                    date: 2014-08-07 16:19:25
 (epstopdf)                    size: 7991 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/RPL_DIO-eps-convert
 ed-to.pdf figures/RPL_DIO.eps>
@@ -977,13 +976,13 @@ File: figures/RPL_DIO-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/RPL_DIO-eps-converted-to.pdf used on input lin
 e 259.
 (pdftex.def)             Requested size: 187.19714pt x 83.73082pt.
- [3 <C:/DADOS_LOCAIS/PESQUISA/ARTIGOS/ARTIGO_ELSEVIER_CEE_SI/figures/RPL_DIO-ep
-s-converted-to.pdf>]
+ [3 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/RPL_DIO-eps-con
+verted-to.pdf>]
 Package epstopdf Info: Source file: <figures/RPL_DAO.eps>
-(epstopdf)                    date: 2014-07-30 10:06:42
+(epstopdf)                    date: 2014-07-30 11:06:42
 (epstopdf)                    size: 196327 bytes
 (epstopdf)             Output file: <figures/RPL_DAO-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-07 15:19:26
+(epstopdf)                    date: 2014-08-07 16:19:26
 (epstopdf)                    size: 7495 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/RPL_DAO-eps-convert
 ed-to.pdf figures/RPL_DAO.eps>
@@ -1006,19 +1005,19 @@ ut line 281.
 Package natbib Warning: Citation `P2P-RPL_2011' on page 4 undefined on input li
 ne 281.
 
-[4 <C:/DADOS_LOCAIS/PESQUISA/ARTIGOS/ARTIGO_ELSEVIER_CEE_SI/figures/RPL_DAO-eps
--converted-to.pdf>]
+[4 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/RPL_DAO-eps-conv
+erted-to.pdf>]
 Overfull \hbox (7.32251pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
 [5]
 Package epstopdf Info: Source file: <figures/sample_scenarios2.eps>
-(epstopdf)                    date: 2014-08-11 15:51:39
+(epstopdf)                    date: 2014-08-11 16:51:39
 (epstopdf)                    size: 1552179 bytes
 (epstopdf)             Output file: <figures/sample_scenarios2-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-08-11 15:52:18
+(epstopdf)                    date: 2014-08-11 16:52:18
 (epstopdf)                    size: 158004 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/sample_scenarios2-e
 ps-converted-to.pdf figures/sample_scenarios2.eps>
@@ -1033,11 +1032,11 @@ Package pdftex.def Info: figures/sample_scenarios2-eps-converted-to.pdf used on
  input line 354.
 (pdftex.def)             Requested size: 210.59857pt x 39.24193pt.
 Package epstopdf Info: Source file: <figures/final_result.eps>
-(epstopdf)                    date: 2014-08-11 11:37:57
+(epstopdf)                    date: 2014-08-11 12:37:57
 (epstopdf)                    size: 10890 bytes
 (epstopdf)             Output file: <figures/final_result-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-08-11 11:38:01
+(epstopdf)                    date: 2014-08-11 12:38:01
 (epstopdf)                    size: 4475 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/final_result-eps-co
 nverted-to.pdf figures/final_result.eps>
@@ -1054,11 +1053,11 @@ t line 362.
 
 Underfull \vbox (badness 2173) has occurred while \output is active []
 
- [6 <C:/DADOS_LOCAIS/PESQUISA/ARTIGOS/ARTIGO_ELSEVIER_CEE_SI/figures/sample_sce
-narios2-eps-converted-to.pdf> <C:/DADOS_LOCAIS/PESQUISA/ARTIGOS/ARTIGO_ELSEVIER
-_CEE_SI/figures/final_result-eps-converted-to.pdf>]
-(C:\DADOS_LOCAIS\PESQUISA\ARTIGOS\ARTIGO_ELSEVIER_CEE_SI\paper_cee_special_issu
-e.bbl
+ [6 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/sample_scenario
+s2-eps-converted-to.pdf> <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/fi
+gures/final_result-eps-converted-to.pdf>]
+(C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.bbl
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7])
@@ -1068,26 +1067,26 @@ Package natbib Warning: There were undefined citations.
 [8
 
 ]
-(C:\DADOS_LOCAIS\PESQUISA\ARTIGOS\ARTIGO_ELSEVIER_CEE_SI\paper_cee_special_issu
-e.aux) ) 
+(C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
+) ) 
 Here is how much of TeX's memory you used:
  22402 strings out of 494045
- 529545 string characters out of 3148341
+ 529470 string characters out of 3148341
  652921 words of memory out of 3000000
  25188 multiletter control sequences out of 15000+200000
  11040 words of font info for 42 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  63i,10n,74p,1060b,964s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on paper_cee_special_issue.pdf (8 pages, 357202 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on paper_cee_special_issue.pdf (8 pages, 357282 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
