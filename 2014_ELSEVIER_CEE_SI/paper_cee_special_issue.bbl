@@ -1,0 +1,261 @@
+\begin{thebibliography}{28}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Al-Karaki and Kamal(2004)}]{WSN_routing}
+\bibinfo{author}{Al-Karaki, J.}, \bibinfo{author}{Kamal, A.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Routing techniques in wireless sensor networks: a
+  survey}.
+\newblock \bibinfo{journal}{Wireless Communications, IEEE}
+  \bibinfo{volume}{11}, \bibinfo{pages}{6--28}.
+%Type = Article
+\bibitem[{Chen and Varshney(2007)}]{survey_2007}
+\bibinfo{author}{Chen, D.}, \bibinfo{author}{Varshney, P.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{A survey of void handling techniques for geographic
+  routing in wireless networks}.
+\newblock \bibinfo{journal}{Communications Surveys Tutorials, IEEE}
+  \bibinfo{volume}{9}, \bibinfo{pages}{50 --67}.
+%Type = Article
+\bibitem[{Chiu et~al.(2010)Chiu, Lo, Chen, Cheng, Lin and Mou}]{LED_jou_2010b}
+\bibinfo{author}{Chiu, H.J.}, \bibinfo{author}{Lo, Y.K.},
+  \bibinfo{author}{Chen, J.T.}, \bibinfo{author}{Cheng, S.J.},
+  \bibinfo{author}{Lin, C.Y.}, \bibinfo{author}{Mou, S.C.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{A high-efficiency dimmable led driver for low-power
+  lighting applications}.
+\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
+  \bibinfo{volume}{57}, \bibinfo{pages}{735 --743}.
+%Type = Article
+\bibitem[{Dalla~Costa et~al.(2008)Dalla~Costa, Alonso, Miranda, Garcia and
+  Lamar}]{HID_Lamps_2008}
+\bibinfo{author}{Dalla~Costa, M.}, \bibinfo{author}{Alonso, J.},
+  \bibinfo{author}{Miranda, J.}, \bibinfo{author}{Garcia, J.},
+  \bibinfo{author}{Lamar, D.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{A single-stage high-power-factor electronic ballast
+  based on integrated buck flyback converter to supply metal halide lamps}.
+\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
+  \bibinfo{volume}{55}, \bibinfo{pages}{1112 --1122}.
+%Type = Inproceedings
+\bibitem[{Dalla~Costa et~al.(2010a)Dalla~Costa, Schuch, Michels, Rech, Pinheiro
+  and Costa}]{CRI_2010}
+\bibinfo{author}{Dalla~Costa, M.}, \bibinfo{author}{Schuch, L.},
+  \bibinfo{author}{Michels, L.}, \bibinfo{author}{Rech, C.},
+  \bibinfo{author}{Pinheiro, J.}, \bibinfo{author}{Costa, G.},
+  \bibinfo{year}{2010}a.
+\newblock \bibinfo{title}{Autonomous street lighting system based on solar
+  energy and leds}, in: \bibinfo{booktitle}{Industrial Technology (ICIT), 2010
+  IEEE International Conference on}, pp. \bibinfo{pages}{1143 --1148}.
+%Type = Article
+\bibitem[{Dalla~Costa et~al.(2010b)Dalla~Costa, Marchesan, da~Silveira, Seidel,
+  do~Prado and Alonso}]{HID_Lamps_2010b}
+\bibinfo{author}{Dalla~Costa, M.A.}, \bibinfo{author}{Marchesan, T.B.},
+  \bibinfo{author}{da~Silveira, J.S.}, \bibinfo{author}{Seidel, A.R.},
+  \bibinfo{author}{do~Prado, R.N.}, \bibinfo{author}{Alonso, J.M.},
+  \bibinfo{year}{2010}b.
+\newblock \bibinfo{title}{Integrated power topologies to supply hps lamps: A
+  comparative study}.
+\newblock \bibinfo{journal}{Power Electronics, IEEE Transactions on}
+  \bibinfo{volume}{25}, \bibinfo{pages}{2124 --2132}.
+%Type = Inproceedings
+\bibitem[{Denardin et~al.(2003)Denardin, Silveira, do~Prado and
+  Campos}]{PLC_Street_Lighting_2003}
+\bibinfo{author}{Denardin, G.}, \bibinfo{author}{Silveira, R.},
+  \bibinfo{author}{do~Prado, R.}, \bibinfo{author}{Campos, A.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Specifications for a power management fieldbus}, in:
+  \bibinfo{booktitle}{Industrial Electronics Society, 2003. IECON '03. The 29th
+  Annual Conference of the IEEE}, pp. \bibinfo{pages}{1272 -- 1277 Vol.2}.
+%Type = Article
+\bibitem[{Denardin et~al.(2011)Denardin, Barriquello, Campos and
+  do~Prado}]{Denardin2011}
+\bibinfo{author}{Denardin, G.W.}, \bibinfo{author}{Barriquello, C.H.},
+  \bibinfo{author}{Campos, A.}, \bibinfo{author}{do~Prado, R.N.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{A geographic routing hybrid approach for void
+  resolution in wireless sensor networks}.
+\newblock \bibinfo{journal}{Journal of Systems and Software}
+  \bibinfo{volume}{In Press, Corrected Proof}, \bibinfo{pages}{--}.
+%Type = Article
+\bibitem[{Gacio et~al.(2010)Gacio, Alonso, Calleja, Garcia and
+  Rico-Secades}]{LED_jou_2010a}
+\bibinfo{author}{Gacio, D.}, \bibinfo{author}{Alonso, M.},
+  \bibinfo{author}{Calleja, A.}, \bibinfo{author}{Garcia, J.},
+  \bibinfo{author}{Rico-Secades, M.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{A universal-input single-stage high-power-factor
+  power supply for hb-leds based on integrated buck-flyback converter}.
+\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
+  \bibinfo{volume}{PP}, \bibinfo{pages}{1 --1}.
+%Type = Inproceedings
+\bibitem[{Giordano et~al.(2001)Giordano, Stojmenovic and
+  Blazevic}]{Position_Based_Routing_Ad_Hoc_2001}
+\bibinfo{author}{Giordano, S.}, \bibinfo{author}{Stojmenovic, I.},
+  \bibinfo{author}{Blazevic, L.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Position based routing algorithms for ad hoc
+  networks: A taxonomy}, in: \bibinfo{booktitle}{Ad Hoc Wireless Networking},
+  \bibinfo{publisher}{Kluwer}. pp. \bibinfo{pages}{103--136}.
+%Type = Article
+\bibitem[{Haklay and Weber(2008)}]{OSM}
+\bibinfo{author}{Haklay, M.}, \bibinfo{author}{Weber, P.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Openstreetmap: User-generated street maps}.
+\newblock \bibinfo{journal}{Pervasive Computing, IEEE} \bibinfo{volume}{7},
+  \bibinfo{pages}{12--18}.
+%Type = Inproceedings
+\bibitem[{Heurtefeux and Menouar(2013)}]{Heurtefeux_RPL_2013}
+\bibinfo{author}{Heurtefeux, K.}, \bibinfo{author}{Menouar, H.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Experimental evaluation of a routing protocol for
+  wireless sensor networks: Rpl under study}, in: \bibinfo{booktitle}{Wireless
+  and Mobile Networking Conference (WMNC), 2013 6th Joint IFIP}, pp.
+  \bibinfo{pages}{1--4}.
+%Type = Inproceedings
+\bibitem[{Hui et~al.(2010)Hui, Li, Tao, Chen and Ng}]{LED_conf_2010}
+\bibinfo{author}{Hui, S.}, \bibinfo{author}{Li, S.}, \bibinfo{author}{Tao, X.},
+  \bibinfo{author}{Chen, W.}, \bibinfo{author}{Ng, W.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{A novel passive off-line light-emitting diode (led)
+  driver with long lifetime}, in: \bibinfo{booktitle}{Applied Power Electronics
+  Conference and Exposition (APEC), 2010 Twenty-Fifth Annual IEEE}, pp.
+  \bibinfo{pages}{594 --600}.
+%Type = Inproceedings
+\bibitem[{Jing et~al.(2010)Jing, Ren and Gu}]{WSN_Street_Lighting_2010_2}
+\bibinfo{author}{Jing, C.}, \bibinfo{author}{Ren, L.}, \bibinfo{author}{Gu,
+  D.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Geographical routing for wsn of street lighting
+  monitoring and control system}, in: \bibinfo{booktitle}{Computer Design and
+  Applications (ICCDA), 2010 International Conference on}, pp.
+  \bibinfo{pages}{V3--235 --V3--238}.
+%Type = Inproceedings
+\bibitem[{Jing et~al.(2007)Jing, Shu and Gu}]{WSN_Street_lighting_2007}
+\bibinfo{author}{Jing, C.}, \bibinfo{author}{Shu, D.}, \bibinfo{author}{Gu,
+  D.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Design of streetlight monitoring and control system
+  based on wireless sensor networks}, in: \bibinfo{booktitle}{Industrial
+  Electronics and Applications, 2007. ICIEA 2007. 2nd IEEE Conference on}, pp.
+  \bibinfo{pages}{57 --62}.
+%Type = Inproceedings
+\bibitem[{Karp and Kung(2000)}]{Karp_GPSR_2000}
+\bibinfo{author}{Karp, B.}, \bibinfo{author}{Kung, H.T.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Gpsr: Greedy perimeter stateless routing for wireless
+  networks}, in: \bibinfo{booktitle}{Proceedings of the 6th Annual
+  International Conference on Mobile Computing and Networking},
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{pages}{243--254}.
+%Type = Article
+\bibitem[{Kuhn et~al.(2008)Kuhn, Wattenhofer and Zollinger}]{GOAFR_2008}
+\bibinfo{author}{Kuhn, F.}, \bibinfo{author}{Wattenhofer, R.},
+  \bibinfo{author}{Zollinger, A.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{An algorithmic approach to geographic routing in ad
+  hoc and sensor networks}.
+\newblock \bibinfo{journal}{Networking, IEEE/ACM Transactions on}
+  \bibinfo{volume}{16}, \bibinfo{pages}{51--62}.
+%Type = Inproceedings
+\bibitem[{Lee et~al.(2006)Lee, Nam, Jeong, Choi, Ryoo and
+  Kim}]{WSN_Street_lighting_2006}
+\bibinfo{author}{Lee, J.}, \bibinfo{author}{Nam, K.}, \bibinfo{author}{Jeong,
+  S.}, \bibinfo{author}{Choi, S.}, \bibinfo{author}{Ryoo, H.},
+  \bibinfo{author}{Kim, D.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Development of zigbee based street light control
+  system}, in: \bibinfo{booktitle}{Power Systems Conference and Exposition,
+  2006. PSCE '06. 2006 IEEE PES}, pp. \bibinfo{pages}{2236 --2240}.
+%Type = Inproceedings
+\bibitem[{Liu et~al.(2009)Liu, Qi, Liu, zhi Yu and
+  Sun}]{Cellular_Street_Lighting_2009_1}
+\bibinfo{author}{Liu, D.}, \bibinfo{author}{Qi, S.}, \bibinfo{author}{Liu, T.},
+  \bibinfo{author}{zhi Yu, S.}, \bibinfo{author}{Sun, F.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{The design and realization of communication
+  technology for street lamps control system}, in: \bibinfo{booktitle}{Computer
+  Science Education, 2009. ICCSE '09. 4th International Conference on}, pp.
+  \bibinfo{pages}{259 --262}.
+%Type = Inproceedings
+\bibitem[{Long and Zhou(2008)}]{CRI_2008}
+\bibinfo{author}{Long, X.}, \bibinfo{author}{Zhou, J.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{An intelligent driver for light emitting diode street
+  lighting}, in: \bibinfo{booktitle}{Automation Congress, 2008. WAC 2008.
+  World}, pp. \bibinfo{pages}{1 --5}.
+%Type = Inproceedings
+\bibitem[{Maizonave et~al.(2006)Maizonave, Dos~Reis, Lima, Bombardieri,
+  Chiapetta, Ceccon, Souza, Tonkoski and Dos~Reis}]{PLC_Street_Lighting_2006}
+\bibinfo{author}{Maizonave, G.}, \bibinfo{author}{Dos~Reis, F.},
+  \bibinfo{author}{Lima, J.}, \bibinfo{author}{Bombardieri, A.},
+  \bibinfo{author}{Chiapetta, F.}, \bibinfo{author}{Ceccon, G.},
+  \bibinfo{author}{Souza, R.}, \bibinfo{author}{Tonkoski, J.},
+  \bibinfo{author}{Dos~Reis, R.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Integrated system for intelligent street lighting},
+  in: \bibinfo{booktitle}{Industrial Electronics, 2006 IEEE International
+  Symposium on}, pp. \bibinfo{pages}{721 --726}.
+%Type = Inproceedings
+\bibitem[{Mendalka et~al.(2010)Mendalka, Gadaj, Kulas and
+  Nyka}]{WSN_Street_Lighting_2010_1}
+\bibinfo{author}{Mendalka, M.}, \bibinfo{author}{Gadaj, M.},
+  \bibinfo{author}{Kulas, L.}, \bibinfo{author}{Nyka, K.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Wsn for intelligent street lighting system}, in:
+  \bibinfo{booktitle}{Information Technology (ICIT), 2010 2nd International
+  Conference on}, pp. \bibinfo{pages}{99 --100}.
+%Type = Inproceedings
+\bibitem[{Mulligan(2007)}]{Mulligan_6LoWPAN_2007}
+\bibinfo{author}{Mulligan, G.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{The 6lowpan architecture}, in:
+  \bibinfo{booktitle}{Proceedings of the 4th Workshop on Embedded Networked
+  Sensors}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{pages}{78--82}.
+%Type = Article
+\bibitem[{Orletti et~al.(2009)Orletti, Co, Simonetti and
+  de~Freitas~Vieira}]{HID_Lamps_2009}
+\bibinfo{author}{Orletti, R.}, \bibinfo{author}{Co, M.},
+  \bibinfo{author}{Simonetti, D.}, \bibinfo{author}{de~Freitas~Vieira, J.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Hid lamp electronic ballast with reduced component
+  number}.
+\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
+  \bibinfo{volume}{56}, \bibinfo{pages}{718 --725}.
+%Type = Inproceedings
+\bibitem[{Pinto et~al.(2009)Pinto, Cosetin, Marchesan, da~Silva, Denardin,
+  Fraytag, Campos and do~Prado}]{LED_conf_2009}
+\bibinfo{author}{Pinto, R.}, \bibinfo{author}{Cosetin, M.},
+  \bibinfo{author}{Marchesan, T.}, \bibinfo{author}{da~Silva, M.},
+  \bibinfo{author}{Denardin, G.}, \bibinfo{author}{Fraytag, J.},
+  \bibinfo{author}{Campos, A.}, \bibinfo{author}{do~Prado, R.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Design procedure for a compact lamp using
+  high-intensity leds}, in: \bibinfo{booktitle}{Industrial Electronics, 2009.
+  IECON '09. 35th Annual Conference of IEEE}, pp. \bibinfo{pages}{3506 --3511}.
+%Type = Article
+\bibitem[{Sanchez et~al.(2010)Sanchez, Vazquez, Hernandez, Rodriguez, Pinto and
+  Juarez}]{HID_Lamps_2010a}
+\bibinfo{author}{Sanchez, R.}, \bibinfo{author}{Vazquez, N.},
+  \bibinfo{author}{Hernandez, C.}, \bibinfo{author}{Rodriguez, E.},
+  \bibinfo{author}{Pinto, S.}, \bibinfo{author}{Juarez, M.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Electric dynamic modeling of hid lamps for electronic
+  ballast design}.
+\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
+  \bibinfo{volume}{57}, \bibinfo{pages}{1655 --1662}.
+%Type = Inproceedings
+\bibitem[{Subramanian et~al.(2007)Subramanian, Shakkottai and
+  Gupta}]{On_Optimal_Geographic_Routing_2007}
+\bibinfo{author}{Subramanian, S.}, \bibinfo{author}{Shakkottai, S.},
+  \bibinfo{author}{Gupta, P.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{On optimal geographic routing in wireless networks
+  with holes and non-uniform traffic}, in: \bibinfo{booktitle}{INFOCOM 2007.
+  26th IEEE International Conference on Computer Communications. IEEE}, pp.
+  \bibinfo{pages}{1019 --1027}.
+%Type = Inproceedings
+\bibitem[{Yue et~al.(2010)Yue, Changhong, Xianghong and
+  Wei}]{Cellular_Street_Lighting_2010_1}
+\bibinfo{author}{Yue, W.}, \bibinfo{author}{Changhong, S.},
+  \bibinfo{author}{Xianghong, Z.}, \bibinfo{author}{Wei, Y.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Design of new intelligent street light control
+  system}, in: \bibinfo{booktitle}{Control and Automation (ICCA), 2010 8th IEEE
+  International Conference on}, pp. \bibinfo{pages}{1423 --1427}.
+
+\end{thebibliography}
