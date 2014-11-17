@@ -1,5 +1,28 @@
 
 Reviewer #2:
 
--- Finally, graph for Figure 6 does not show any higher order statistics, only the average values. You should include standard deviation or confidence interval if different seeds were used in your simulations.
-[X] - confidence intervals have been included
+[X] Finally, graph for Figure 6 does not show any higher order statistics, only the average values. 
+You should include standard deviation or confidence interval if different seeds were used in your simulations.
+R: confidence intervals have been included
+
+Reviewer #3:
+
+[X] In section 4, low and high link density is mentioned, but it is not clear how to 
+differentiate a low link density to a high link density and how it is modelled during the simulations.
+
+R: The link density is modelled in the simulations by the radio range, 
+the distance between neighboring nodes, and the constrained placement of nodes, 
+as the nodes are not allowed to be in the regions enclosed by the streets.
+
+[x] The last paragraph of the results section explain that "in a smart street lighting [network], 
+thre may be some places where the link density is very low due to obstacles". 
+
+Were obstacles simulated in the simulation environment? 
+R: Yes. The obstacles have been simulated by the constrained node placement, as explained above.
+
+How low is very low? 
+R: Very low density is the density obtained when the radio range is set to the minimum value required to keep the network connected. 
+The network is connected when, for any two nodes in the network, there is at least one path connecting them.
+
+Generally, a street light will have visibility of some other nodes in the same street? 
+R: Yes.
