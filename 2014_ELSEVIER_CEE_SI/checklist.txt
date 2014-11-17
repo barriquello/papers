@@ -1,0 +1,5 @@
+
+Reviewer #2:
+
+-- Finally, graph for Figure 6 does not show any higher order statistics, only the average values. You should include standard deviation or confidence interval if different seeds were used in your simulations.
+[X] - confidence intervals have been included
