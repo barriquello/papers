@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{37}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -22,6 +22,15 @@
   networks: Testbed experiments}, in: \bibinfo{booktitle}{Software,
   Telecommunications and Computer Networks (SoftCOM), 2011 19th International
   Conference on}, pp. \bibinfo{pages}{1 --6}.
+%Type = Article
+\bibitem[{Bontu et~al.(2014)Bontu, Periyalwar and Pecen}]{celullar_iot}
+\bibinfo{author}{Bontu, C.}, \bibinfo{author}{Periyalwar, S.},
+  \bibinfo{author}{Pecen, M.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Wireless wide-area networks for internet of things:
+  An air interface protocol for iot and a simultaneous access channel for
+  uplink iot communication}.
+\newblock \bibinfo{journal}{Vehicular Technology Magazine, IEEE}
+  \bibinfo{volume}{9}, \bibinfo{pages}{54--63}.
 %Type = Article
 \bibitem[{Chen and Varshney(2007)}]{survey_2007}
 \bibinfo{author}{Chen, D.}, \bibinfo{author}{Varshney, P.},
@@ -245,6 +254,16 @@
   \bibinfo{booktitle}{Proceedings of the 4th Workshop on Embedded Networked
   Sensors}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
   \bibinfo{pages}{78--82}.
+%Type = Article
+\bibitem[{Papadopoulos et~al.(2013)Papadopoulos, Kaloudas, Chrysochos and
+  Papagiannis}]{PLC_drawbacks}
+\bibinfo{author}{Papadopoulos, T.}, \bibinfo{author}{Kaloudas, C.},
+  \bibinfo{author}{Chrysochos, A.}, \bibinfo{author}{Papagiannis, G.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Application of narrowband power-line communication in
+  medium-voltage smart distribution grids}.
+\newblock \bibinfo{journal}{Power Delivery, IEEE Transactions on}
+  \bibinfo{volume}{28}, \bibinfo{pages}{981--988}.
 %Type = Article
 \bibitem[{Sanchez et~al.(2010)Sanchez, Vazquez, Hernandez, Rodriguez, Pinto and
   Juarez}]{HID_Lamps_2010a}
