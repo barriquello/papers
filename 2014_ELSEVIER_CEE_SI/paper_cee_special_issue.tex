@@ -351,7 +351,8 @@ line.
 
 In order to evaluate the proposed technique, simulations were performed in scenarios based on real street maps exported from the OpenStreetMap (OSM) data set, which is an open collaborative mapping project \citep{OSM}. The scenarios have been chosen to cover a wide range of possible street layouts. They have been populated with nodes with an average distance of $40m$, in order to simulate a real street lighting system, with network sizes ranging from 100 up to 400 nodes. A sample of the chosen scenarios are shown in figure \ref{sim_scenarios}. 
 
-For every scenario, there were generated $1000$ random source-destination pairs, giving a coverage of up to $10$\% of the possible source-destination combinations. Also, every simulation was performed for $10$ different (random) positions of the DODAG root in every scenario, which gives a good coverage of the $5$ possible root placements (i.e. center and top/bottom-right/left corners). Then, for the each source-destination pair, the route was determined by each algorithm under test (RPL, GOAFR, \textit{GeoRank} and Dijkstra' algorithm for shortest path) and length of each route was measured in number of hops. The average length of the routes was computed and the results are shown in figure \ref{sim_results}.
+For every scenario, there were generated $1000$ random source-destination pairs, giving a coverage of up to $10$\% of the possible source-destination combinations. Also, every simulation was performed for $10$ different (random) positions of the DODAG root in every scenario, which gives a good coverage of the $5$ possible root placements (i.e. center and top/bottom-right/left corners). Then, for the each source-destination pair, the route was determined by each algorithm under test (RPL, GOAFR, \textit{GeoRank} and Dijkstra' algorithm for shortest path) and length of each route was measured in number of hops. The average length of the routes was computed and the results are shown in figure \ref{sim_results}. 
+  
 %For RPL rank computation, it was used the Objective Function 0 as defined in RFC6552.
 \begin{figure}
 \centering
@@ -364,10 +365,20 @@ For every scenario, there were generated $1000$ random source-destination pairs,
 
 \begin{figure}
 \centering
-\includegraphics[width=1\textwidth]{figures/final_result.eps}
+\includegraphics[width=1\textwidth]{figures/hops_range.eps}
 %\includegraphics[width=0.45\textwidth]{figures/final_result.eps}
 \caption{Simulation results of the average route length for the routing algorithms (RPL, GOAFR, \textit{GeoRank}, and Dijkstra' algorithm for shortest path).}
 \label{sim_results}
+\end{figure}
+
+\rev{For comparison of the scalability of \textit{GeoRank} and RPL, the number of entries in the routing table was recorded for each node. Then, the maximum value of the size of the routing table was computed over all the nodes, because it gives the worst case memory requirement (excluding the DODAG root). The results are shown in figure \ref{sim_results2}.}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{figures/mem_usage_range.eps}
+%\includegraphics[width=0.45\textwidth]{figures/final_result.eps}
+\caption{Simulation results of the size of the routing table in number of entries relative to the number of nodes in the network, for the routing algorithms RPL and \textit{GeoRank}}
+\label{sim_results2}
 \end{figure}
 
 \subsection{Remarks}
@@ -375,16 +386,19 @@ For every scenario, there were generated $1000$ random source-destination pairs,
 % a negligible difference between GOAFR and GOAFR+ variants of geographic routing. Also, it is noticeable 
 The results shown that, for large radio ranges, where the average connectivity is high, the geographic routing is able to find near optimal routes. The reason for this is that with larger radio ranges the number of links that provide shorter paths are increased and the geographic routing is able to use them for routing, while RPL is constrained to the longer DODAG paths. \rev{On} \sout{By} the other hand, when the radio range is decreased, the network approaches the critical density, where geographic routing starts to reach more voids in the network and needs to resort more often to the face routing mechanism for circumventing the voids. Thus, the overall effect is that the use of geographic routing results in longer paths than RPL in lower link density conditions.
 
+\rev{It is noted that the low link density is the density obtained when the radio range is set to the minimum value required to keep the network connected (i.e. 40m in the simulation setup). And the network is connected when, for any two nodes in the network, there is at least one path connecting them. Also, the high link density is the density obtained when the radio range is set to a value that, for every node in the network, greedy routing always works (i.e. there is no void node). Thus, the packet always is routed through the shortest path in the network (i.e. 90m in the simulation setup).}
+
 It is remarkable that the \textit{GeoRank} is able to reduce the length of the route found by geographic routing in lower link densities. It does so by avoiding to circumvent the void with face routing whenever it is possible to use the DODAG to perform this deviation. Thus, \textit{GeoRank} achieves a significant reduction of the path length when the number of voids is large (i.e. when the radio range is small) compared to geographic routing alone. \rev{On} \sout{By} the other hand, when the radio range is increased, geographic routing performs better than RPL, and \textit{GeoRank} does not impact negatively its performance. Therefore, \textit{GeoRank} works as a selective method, that is able leverage the best of RPL and geographic routing, and being adaptive to the network density.
 
-In a large scale network, as a smart street lighting, there may be some places where the link density is very low due to obstacles, such as in dense urban environments, while some places may have high link density due to less and lower buildings. Therefore, while in either case RPL or geographic routing alone would not be the best option, the remarkable adaptability of \textit{GeoRank} makes it the well suited to such variable link density case.
+In a large scale network, as a smart street lighting, there may be some places where the link density is very low due to obstacles, such as in dense urban environments, while some places may have high link density due to less and lower buildings. Therefore, while in either case RPL or geographic routing alone would not be the best option, the remarkable adaptability of \textit{GeoRank} makes it the well suited to such variable link density case. \rev{Moreover, \textit{GeoRank} is more scalable than storing-mode RPL according to memory usage, as shown in figure \ref{sim_results2}.}
+
 
 \section{Conclusions}
 \label{secConclusion}
 
-In this paper, a smart street lighting system using a 6LoWPAN-based wireless sensor network was proposed. Moreover, in order to improve the performance and scalability of the network, it was proposed a new routing protocol, named \textit{GeoRank}, which integrates the standardized RPL routing protocol for 6LoWPAN networks with the state-of-the-art GOAFR position-based routing algorithm. The results obtained from simulations on networks extracted from real street maps have shown that \textit{GeoRank} has an improved routing performance over GOAFR in low link density condition, while outperforming the RPL protocol in high link density condition by finding mostly optimal routes. Therefore, \textit{GeoRank} is an adaptive approach for scenarios with variable link densities. 
+In this paper, a smart street lighting system using a 6LoWPAN-based wireless sensor network was proposed. Moreover, in order to improve the performance and scalability of the network, it was proposed a new routing protocol, named \textit{GeoRank}, which integrates the standardized RPL routing protocol for 6LoWPAN networks with the state-of-the-art GOAFR position-based routing algorithm. The results obtained from simulations on networks extracted from real street maps have shown that \textit{GeoRank} has an improved routing performance over GOAFR in low link density condition, while outperforming the RPL protocol in high link density condition by finding mostly optimal routes. Therefore, \textit{GeoRank} is an adaptive approach for scenarios with variable link densities.  \rev{Further, it is remarked that \textit{GeoRank} is not required to use the \sout{highly bandwidth-consuming} RPL DAO control messages, because it uses the positions of the nodes for the P2P routing, and is more scalable than storing-mode RPL according to memory usage.} 
 
-Further, it is remarked that \textit{GeoRank} is not required to use the highly bandwidth-consuming RPL DAO control messages, and is more scalable than storing-mode RPL according to memory usage. Finally, although \textit{GeoRank} is proposed for a smart street lighting system, it is highlighted that it may find applicability for other large-scale network scenarios where the link density is variable and the scalability of the network is a major concern.
+\sout{Finally, although \textit{GeoRank} is proposed for a smart street lighting system, it is highlighted that it may find applicability for other large-scale network scenarios where the link density is variable and the scalability of the network is a major concern.}
 
 %\section{Acknowledgments}
 %\label{secAck}
