@@ -180,6 +180,26 @@
   timestamp = {2010.10.06}
 }
 
+@ARTICLE{celullar_iot,
+  author = {Bontu, C.S. and Periyalwar, S. and Pecen, M.},
+  title = {Wireless Wide-Area Networks for Internet of Things: An Air Interface
+	Protocol for IoT and a Simultaneous Access Channel for Uplink IoT
+	Communication},
+  journal = {Vehicular Technology Magazine, IEEE},
+  year = {2014},
+  volume = {9},
+  pages = {54-63},
+  number = {1},
+  month = {March},
+  doi = {10.1109/MVT.2013.2295068},
+  issn = {1556-6072},
+  keywords = {Internet of Things;cellular radio;protocols;wide area networks;Internet
+	of Things;UL IoT communication;air interface protocol;cellular systems;macrocellular
+	band;simultaneous access channel;uplink IoT communication;wide area
+	communication system;wireless wide area networks;Internet of Things;Narrowband;Transceivers;Vehicular
+	and wireless technologies;Wide area networks;Wireless communication}
+}
+
 @ARTICLE{Bose_2001_FACE,
   author = {Bose, Prosenjit and Morin, Pat and Stojmenovi\'{c}, Ivan and Urrutia,
 	Jorge},
@@ -1778,6 +1798,35 @@
 	networks;},
   owner = {barriquello},
   timestamp = {2010.10.06}
+}
+
+@ARTICLE{Pantoni_2011,
+  author = {Rodrigo Pantoni and Dennis Brandão},
+  title = {A confirmation-based geocast routing algorithm for street lighting
+	systems },
+  journal = {Computers \& Electrical Engineering },
+  year = {2011},
+  volume = {37},
+  pages = {1147 - 1159},
+  number = {6},
+  doi = {http://dx.doi.org/10.1016/j.compeleceng.2011.06.004},
+  issn = {0045-7906},
+  url = {http://www.sciencedirect.com/science/article/pii/S0045790611000887}
+}
+
+@ARTICLE{Pantoni_2013,
+  author = {Rodrigo Palucci Pantoni and Dennis Brandão},
+  title = {A gradient based routing scheme for street lighting wireless sensor
+	networks },
+  journal = {Journal of Network and Computer Applications },
+  year = {2013},
+  volume = {36},
+  pages = {77 - 90},
+  number = {1},
+  doi = {http://dx.doi.org/10.1016/j.jnca.2012.04.019},
+  issn = {1084-8045},
+  keywords = {Gradient-based routing},
+  url = {http://www.sciencedirect.com/science/article/pii/S1084804512001129}
 }
 
 @ARTICLE{PLC_drawbacks,
