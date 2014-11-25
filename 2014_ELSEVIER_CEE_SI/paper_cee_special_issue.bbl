@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{41}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -94,6 +94,16 @@
 \newblock \bibinfo{journal}{Power Electronics, IEEE Transactions on}
   \bibinfo{volume}{25}, \bibinfo{pages}{2124 --2132}.
 %Type = Inproceedings
+\bibitem[{Denardin et~al.(2009)Denardin, Barriquello, Pinto, Silva, Campos and
+  do~Prado}]{Our_IAS_2009}
+\bibinfo{author}{Denardin, G.}, \bibinfo{author}{Barriquello, C.},
+  \bibinfo{author}{Pinto, R.}, \bibinfo{author}{Silva, M.},
+  \bibinfo{author}{Campos, A.}, \bibinfo{author}{do~Prado, R.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{An intelligent system for street lighting control and
+  measurement}, in: \bibinfo{booktitle}{Industry Applications Society Annual
+  Meeting, 2009. IAS 2009. IEEE}, pp. \bibinfo{pages}{1 --5}.
+%Type = Inproceedings
 \bibitem[{Denardin et~al.(2003)Denardin, Silveira, do~Prado and
   Campos}]{PLC_Street_Lighting_2003}
 \bibinfo{author}{Denardin, G.}, \bibinfo{author}{Silveira, R.},
@@ -112,6 +122,15 @@
   resolution in wireless sensor networks}.
 \newblock \bibinfo{journal}{Journal of Systems and Software}
   \bibinfo{volume}{In Press, Corrected Proof}, \bibinfo{pages}{--}.
+%Type = Article
+\bibitem[{da~Fonseca et~al.(2015)da~Fonseca, Pantoni and
+  Brandão}]{daFonseca_2015}
+\bibinfo{author}{da~Fonseca, C.C.}, \bibinfo{author}{Pantoni, R.P.},
+  \bibinfo{author}{Brandão, D.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Public street lighting remote operation and
+  supervision system}.
+\newblock \bibinfo{journal}{Computer Standards \& Interfaces}
+  \bibinfo{volume}{38}, \bibinfo{pages}{25 -- 34}.
 %Type = Article
 \bibitem[{Gacio et~al.(2010)Gacio, Alonso, Calleja, Garcia and
   Rico-Secades}]{LED_jou_2010a}
@@ -254,6 +273,22 @@
   \bibinfo{booktitle}{Proceedings of the 4th Workshop on Embedded Networked
   Sensors}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
   \bibinfo{pages}{78--82}.
+%Type = Article
+\bibitem[{Pantoni and Brandão(2011)}]{Pantoni_2011}
+\bibinfo{author}{Pantoni, R.}, \bibinfo{author}{Brandão, D.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{A confirmation-based geocast routing algorithm for
+  street lighting systems}.
+\newblock \bibinfo{journal}{Computers \& Electrical Engineering}
+  \bibinfo{volume}{37}, \bibinfo{pages}{1147 -- 1159}.
+%Type = Article
+\bibitem[{Pantoni and Brandão(2013)}]{Pantoni_2013}
+\bibinfo{author}{Pantoni, R.P.}, \bibinfo{author}{Brandão, D.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{A gradient based routing scheme for street lighting
+  wireless sensor networks}.
+\newblock \bibinfo{journal}{Journal of Network and Computer Applications}
+  \bibinfo{volume}{36}, \bibinfo{pages}{77 -- 90}.
 %Type = Article
 \bibitem[{Papadopoulos et~al.(2013)Papadopoulos, Kaloudas, Chrysochos and
   Papagiannis}]{PLC_drawbacks}
