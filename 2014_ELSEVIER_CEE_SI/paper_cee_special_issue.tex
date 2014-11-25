@@ -226,6 +226,18 @@ However, very recent empirical studies showed that RPL has some drawbacks, as hi
 
 Our main contribution in this paper is to propose a modification into RPL protocol, in order to better support P2P communication. The proposed technique intend to integrate a geographic routing algorithm in the RPL protocol to reduce the amount of control message required for P2P communication. We further propose a smart street lighting system based on IPv6-enabled wireless sensor network, which makes use of the new routing algorithm for message exchanging. This paper is organized as follows: Section \ref{sec6LoWPAN} presents an overview of the 6LoWPAN protocol, describing succinctly its operating modes, routing strategies and main drawbacks. In section \ref{secGeographicRouting} we address the geographic routing technique, highlighting its pros and cons. In section \ref{secGeoRank}, the \textit{GeoRank} algorithm is presented, depicting its working principle. We evaluate, by simulation, the performance of the proposed algorithm in Section \ref{secSimulation}. Finally, we conclude this paper in Section \ref{secConclusion}.
 
+\rev{
+\section{Requirements and benefits of a smart street lighting system}
+A smart street lighting system based on a network that covers entire cities its a concept that is widespread in the literature \citep{}. However, the requirements for such network are not always clearly defined. Despite that, through a simple analysis it is clear that most of the messages in this system will be towards the sink node, generating a converging traffic. As the majority of the WSN protocols are designed for such traffic (e.g., the RPL protocol), we are led to think that there are few possible contributions that researchers can make to improve the network data flow. Therefore, it is important to express a more complete set of requirements that such a system demands for a communication network. For that, we must state the main goals of a smart street lighting system. Based on previous works, we can assert that such goals are usually monitoring tasks, as current, voltage, energy consumption and state of the lamp/ballast measurements. All this kind of message are sporadic or may be distributed in time to not overload the network.
+
+Falar agora da possibilidade de usar a rede para outros fins.
+
+he requirements of street light networks are not expressed. What demands do these put on communication networks? What kinds of topologies do they have? What kinds of traffic patterns do they exhibit? How often are packets transmitted? 
+
+
+
+}
+
 \section{6LoWPAN}
 \label{sec6LoWPAN}
 
