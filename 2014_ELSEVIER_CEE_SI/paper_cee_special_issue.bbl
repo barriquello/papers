@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{37}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -39,16 +39,6 @@
   routing in wireless networks}.
 \newblock \bibinfo{journal}{Communications Surveys Tutorials, IEEE}
   \bibinfo{volume}{9}, \bibinfo{pages}{50 --67}.
-%Type = Article
-\bibitem[{Chiu et~al.(2010)Chiu, Lo, Chen, Cheng, Lin and Mou}]{LED_jou_2010b}
-\bibinfo{author}{Chiu, H.J.}, \bibinfo{author}{Lo, Y.K.},
-  \bibinfo{author}{Chen, J.T.}, \bibinfo{author}{Cheng, S.J.},
-  \bibinfo{author}{Lin, C.Y.}, \bibinfo{author}{Mou, S.C.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{A high-efficiency dimmable led driver for low-power
-  lighting applications}.
-\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
-  \bibinfo{volume}{57}, \bibinfo{pages}{735 --743}.
 %Type = Misc
 \bibitem[{Clausen and Herberg(2011)}]{herberg}
 \bibinfo{author}{Clausen, T.}, \bibinfo{author}{Herberg, U.},
@@ -73,26 +63,15 @@
   internet protocol version 6 (ipv6) specification}.
 \newblock \bibinfo{howpublished}{RFC4443}.
 %Type = Inproceedings
-\bibitem[{Dalla~Costa et~al.(2010a)Dalla~Costa, Schuch, Michels, Rech, Pinheiro
+\bibitem[{Dalla~Costa et~al.(2010)Dalla~Costa, Schuch, Michels, Rech, Pinheiro
   and Costa}]{CRI_2010}
 \bibinfo{author}{Dalla~Costa, M.}, \bibinfo{author}{Schuch, L.},
   \bibinfo{author}{Michels, L.}, \bibinfo{author}{Rech, C.},
   \bibinfo{author}{Pinheiro, J.}, \bibinfo{author}{Costa, G.},
-  \bibinfo{year}{2010}a.
+  \bibinfo{year}{2010}.
 \newblock \bibinfo{title}{Autonomous street lighting system based on solar
   energy and leds}, in: \bibinfo{booktitle}{Industrial Technology (ICIT), 2010
   IEEE International Conference on}, pp. \bibinfo{pages}{1143 --1148}.
-%Type = Article
-\bibitem[{Dalla~Costa et~al.(2010b)Dalla~Costa, Marchesan, da~Silveira, Seidel,
-  do~Prado and Alonso}]{HID_Lamps_2010b}
-\bibinfo{author}{Dalla~Costa, M.A.}, \bibinfo{author}{Marchesan, T.B.},
-  \bibinfo{author}{da~Silveira, J.S.}, \bibinfo{author}{Seidel, A.R.},
-  \bibinfo{author}{do~Prado, R.N.}, \bibinfo{author}{Alonso, J.M.},
-  \bibinfo{year}{2010}b.
-\newblock \bibinfo{title}{Integrated power topologies to supply hps lamps: A
-  comparative study}.
-\newblock \bibinfo{journal}{Power Electronics, IEEE Transactions on}
-  \bibinfo{volume}{25}, \bibinfo{pages}{2124 --2132}.
 %Type = Inproceedings
 \bibitem[{Denardin et~al.(2009)Denardin, Barriquello, Pinto, Silva, Campos and
   do~Prado}]{Our_IAS_2009}
@@ -131,16 +110,6 @@
   supervision system}.
 \newblock \bibinfo{journal}{Computer Standards \& Interfaces}
   \bibinfo{volume}{38}, \bibinfo{pages}{25 -- 34}.
-%Type = Article
-\bibitem[{Gacio et~al.(2010)Gacio, Alonso, Calleja, Garcia and
-  Rico-Secades}]{LED_jou_2010a}
-\bibinfo{author}{Gacio, D.}, \bibinfo{author}{Alonso, M.},
-  \bibinfo{author}{Calleja, A.}, \bibinfo{author}{Garcia, J.},
-  \bibinfo{author}{Rico-Secades, M.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{A universal-input single-stage high-power-factor
-  power supply for hb-leds based on integrated buck-flyback converter}.
-\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
-  \bibinfo{volume}{PP}, \bibinfo{pages}{1 --1}.
 %Type = Inproceedings
 \bibitem[{Giordano et~al.(2001)Giordano, Stojmenovic and
   Blazevic}]{Position_Based_Routing_Ad_Hoc_2001}
@@ -299,17 +268,6 @@
   medium-voltage smart distribution grids}.
 \newblock \bibinfo{journal}{Power Delivery, IEEE Transactions on}
   \bibinfo{volume}{28}, \bibinfo{pages}{981--988}.
-%Type = Article
-\bibitem[{Sanchez et~al.(2010)Sanchez, Vazquez, Hernandez, Rodriguez, Pinto and
-  Juarez}]{HID_Lamps_2010a}
-\bibinfo{author}{Sanchez, R.}, \bibinfo{author}{Vazquez, N.},
-  \bibinfo{author}{Hernandez, C.}, \bibinfo{author}{Rodriguez, E.},
-  \bibinfo{author}{Pinto, S.}, \bibinfo{author}{Juarez, M.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{Electric dynamic modeling of hid lamps for electronic
-  ballast design}.
-\newblock \bibinfo{journal}{Industrial Electronics, IEEE Transactions on}
-  \bibinfo{volume}{57}, \bibinfo{pages}{1655 --1662}.
 %Type = Inproceedings
 \bibitem[{Subramanian et~al.(2007)Subramanian, Shakkottai and
   Gupta}]{On_Optimal_Geographic_Routing_2007}
