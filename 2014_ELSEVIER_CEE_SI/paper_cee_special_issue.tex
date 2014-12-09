@@ -260,11 +260,11 @@ In order to address the lack of a routing protocol for 6LoWPAN networks, the RPL
 
 The RPL protocol is based on directed acyclic graph (DAG). DAGs are directed graphs formed by a collection of $n$ vertices labeled from the set \{1,2,...,n\}, such that the presence of the edge $(i,j)$ implies that $i < j$. Therefore, each directed edge connects one vertex to another, such that there is no way to start at some vertex $v$ and follow a sequence of edges that eventually loops back to $v$ again \citep{DAGS_1992}. All edges are contained in paths oriented toward and terminating at one or more root nodes. These root nodes are known as Low power and Lossy Network Border Routers (LBR), which are devices that connects the LLN to another routing domain such as a Local Area Network (LAN) or the internet, where a different routing protocol may be in operation. In addition to its functionality as a routing device, the LBR acts as a sink node to a WSN as well as a data collector or aggregator \citep{RFC7102}.
 
-In RPL, a DAG grounded at a single LBR is called a Destination Oriented Directed Acyclic Graph (DODAG). For a specific DODAG each node is assigned to a rank such that rank increases as the node is far from the LBR. Note that the rank of the nodes along any path to the LBR must be monotonically decreasing, avoiding routing loops, as shown in the figure \ref{RPL_DIO}. Therefore, forwarding a packet to the LBR roughly consist in choosing the neighbor node with the lowest rank.
+In RPL, a DAG grounded at a single LBR is called a Destination Oriented Directed Acyclic Graph (DODAG). For a specific DODAG, each node is assigned to a rank such that rank increases as the node is far from the LBR. Note that the rank of the nodes along any path to the LBR must be monotonically decreasing, avoiding routing loops, as shown in the figure \ref{RPL_DIO} (each path has a label in this figure, which basically informs the average cost to reach the LBR by a specific parent). Therefore, forwarding a packet to the LBR roughly consist in choosing the neighbor node with the lowest rank.
 
 \begin{figure}[h!tb]
 \centering
-\includegraphics[width=1\textwidth]{figures/RPL_DIO}
+\includegraphics[width=0.8\textwidth]{figures/RPL_DIO}
 \caption{Example of a Destination Oriented Directed Acyclic Graph(DODAG).}
 \label{RPL_DIO}
 \end{figure}
@@ -311,12 +311,24 @@ Many researchers argue that a dense deployment of wireless nodes can reduce the 
 
 Among the main non-hybrid void handling techniques, the Greedy Other Adaptive Face Routing (GOAFR) algorithm and its variations is one of the approaches that can get closer to the optimum path when traversing voids \citep{GOAFR_2008}. However, recently some hybrid strategies report having overcome the traditional geographic routing algorithms in terms of hop count, as the Coordinate Depth Forwarding (CDF) technique \citep{Denardin2011}.
 
-Hybrid strategies allow aggregating several techniques in order to achieve better performance than a single technique. In the next section, we propose a hybrid approach that combines the simplicity of the DODAGs routes formed by RPL protocol, the scalability and guaranteed delivery feature of GOAFR algorithm and the inherent optimal paths of the CDF heuristics. However, instead of using directly the hop count in order to generate the optimal paths claimed by CDF, we propose to change its routing metric to the DODAG rank and study its behavior in network topologies based on real street maps. Therefore, the proposed approach allows to join the best characteristics of RPL and GOAFR into a new routing protocol, resulting in better performance than a single instance of each one would present. This new routing protocol is named \textit{GeoRank} to represent the integration of the geometric based behavior of GOAFR with the rank based behavior of RPL, and it will be explained in the following section.
+Hybrid strategies allow aggregating several techniques in order to achieve better performance than a single technique. In the next section, we propose a hybrid approach that combines the simplicity of the DODAGs routes formed by RPL protocol, the scalability and guaranteed delivery feature of GOAFR algorithm and the inherent optimal paths of the CDF heuristics.
 
 \section{GeoRank}
 \label{secGeoRank}
 
-Mainly due to its greedy step, GOAFR algorithm is able to perform quite well in networks with high link density, discovering paths often optimal or near-optimal paths, in contrast to RPL, which is constrained to route only through the DODAGs and thus, being unable to find the optimal paths. \rev{On} \sout{By} the other hand, in networks with low link density, mainly around the critical density \citep{GOAFR_2008}, GOAFR has a performance loss and may usually find paths longer than RPL. Therefore, a hybrid approach that leverages the best of both algorithms according to the network link density is proposed. This approach is mainly suitable for large scale and heterogeneous networks, such as a network of wireless street light nodes, where the link density varies from low to high depending of the more or less presence of obstructions and buildings in different places of the network.  The operation of \textit{GeoRank} is illustrated in figure \ref{state_machine} and the algorithm is outlined below in Algoritm \ref{alg}.
+Mainly due to its greedy step, GOAFR algorithm is able to perform quite well in networks with high link density, discovering often optimal or near-optimal paths, in contrast to RPL, which is constrained to route only through the DODAGs and thus, being unable to find the optimal paths. \rev{On} \sout{By} the other hand, in networks with low link density, mainly around the critical density \citep{GOAFR_2008}, GOAFR has a performance loss and may usually find longer paths than RPL. Therefore, a hybrid approach that leverages the best characteristics of RPL and GOAFR according to the network link density is proposed, resulting in better performance than a single instance of each one would present. The new routing protocol is named \textit{GeoRank} to represent the integration of the geometric based behavior of GOAFR with the rank based behavior of RPL. This approach is mainly suitable for large scale and heterogeneous networks, such as a wireless network for street lighting nodes, where the link density varies from low to high depending on the presence of obstructions and buildings in different places of the network.
+
+In order to achieve such behavior it is proposed to integrate the CDF technique as a intermediate step in the P2P route algorithm. CDF mainly relies in the hop count towards the base stations (which in terms of RPL are the LBR nodes) to generate suboptimal routes for P2P communication. The basic idea behind such technique is to find the base station closer to the packet destination and, use the optimal path towards such base station (which is based on the hop count metric) to approximate the packet to its destination. However, instead of using directly the hop count to generate the suboptimal paths claimed by CDF, we propose to change its routing metric to the DODAG rank and study its behavior in network topologies based on real street maps. In this way it is possible to use the DODAGs as reliable paths that should be used to accelerate the packet delivery process. The main advantage of using such known and trusted path is to avoid the excessive memory consumption needed by the RPL protocol in order to store the P2P path as well as to reduce the hop count in the GOAFR algorithm around the critical density.
+
+The proposed algorithm obviously depends on geographic position to implement the geometric portion of the protocol. Therefore, all networks nodes must be static, which favors the RPL protocol as well. This does not mean that there must be only static nodes on the network, but that mobile nodes must be one hop away from a static node. As the street lighting system and others possible applications of such network are mainly formed by static devices, it is possible to store the node position during the installation process.
+
+The \textit{GeoRank} operation is depicted in Algoritm \ref{alg}.
+
+Será que não é necessário algumas definições? (não sei, pq a maioria do que precisaria definir já é definido no protocolo RPL)
+Existe o conceito de reliable nodes? (acredito que não)
+
+O algoritmo do CDF completo foi colocado textualmente no artigo original. Será que cabe mesmo utilizar pseudo-code para descrevê-lo?
+
 
 \small
 \begin{algorithm}
@@ -333,22 +345,7 @@ line.
 \end{algorithmic}
 \end{algorithm}
 \normalsize
-\begin{figure}
-\centering
-\begin{tikzpicture}
-[scale=1, every path/.style={>=latex}, no/.style={draw,circle,align=center,text width = 1.3cm}]
-  \node[no] (a) at (0,0)  {\small GOAFR greedy routing};
-  \node[no] (b) at (3,4)  {\small DODAG upward routing};
-  \node[no] (c) at (6,0) {\small GOAFR face routing };
 
-  \draw[->] (a) edge [bend left] node[sloped, anchor=center, above, text width=1.5cm] {\small Void node} (b);
-  \draw[->] (b) edge [bend left] node[sloped, anchor=left,  below] {\small Back to greedy}(a);
-  \draw[->] (b) edge node[sloped, anchor=center, above, text width=1.5cm] {\small Go to face}(c);
-  \draw[->] (c) edge node[below] {\small Back to greedy} (a);
-\end{tikzpicture}
-\caption{GeoRank operation}
-\label{state_machine}
-\end{figure}
 
 \section{Simulation Results}
 \label{secSimulation}
