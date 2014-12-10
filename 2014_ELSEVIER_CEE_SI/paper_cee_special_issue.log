@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=latex 2012.11.16)  9 DEC 2014 10:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=latex 2012.11.16)  9 DEC 2014 23:38
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -877,47 +877,59 @@ Acyclic
 
 [11] [12]
 File: figures/RPL_DAO.eps Graphic file (type eps)
- <figures/RPL_DAO.eps> [13] [14] [15] [16] [17]
-Overfull \hbox (3.23744pt too wide) in paragraph at lines 340--340
- [][][]\OT1/cmr/m/n/10.95 GOAFR 
- []
-
-
-Overfull \hbox (4.45409pt too wide) in paragraph at lines 341--341
- [][][]\OT1/cmr/m/n/10.95 DODAG 
- []
-
-
-Overfull \hbox (3.23744pt too wide) in paragraph at lines 342--342
- [][][]\OT1/cmr/m/n/10.95 GOAFR 
- []
-
-[18] [19]
+ <figures/RPL_DAO.eps> [13] [14] [15] [16] [17] [18]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¡ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¡ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¡ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¡ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ª in font cmr12!
+ [19] [20]
+[21]
 File: figures/sample_scenarios.eps Graphic file (type eps)
  <figures/sample_scenarios.eps>
 File: figures/hops_range.eps Graphic file (type eps)
- <figures/hops_range.eps> [20] [21]
+ <figures/hops_range.eps>
 File: figures/mem_usage_range.eps Graphic file (type eps)
 
-<figures/mem_usage_range.eps> [22] [23] [24]
+<figures/mem_usage_range.eps> [22] [23] [24] [25] [26]
 (C:\Users\Gustavo\Documents\GitHub\papers\2014_ELSEVIER_CEE_SI\paper_cee_specia
 l_issue.bbl
 Missing character: There is no ° in font cmr12!
- [25]
+ [27]
 Missing character: There is no ã in font cmr12!
- [26] [27] [28]
+ [28] [29]
 Missing character: There is no ã in font cmr12!
+ [30]
 Missing character: There is no ã in font cmr12!
- [29]) [30]
+ [31]) [32]
 (C:\Users\Gustavo\Documents\GitHub\papers\2014_ELSEVIER_CEE_SI\paper_cee_specia
 l_issue.aux) ) 
 Here is how much of TeX's memory you used:
- 21855 strings out of 494046
- 522814 string characters out of 3148403
+ 21775 strings out of 494046
+ 521115 string characters out of 3148403
  670770 words of memory out of 3000000
- 24661 multiletter control sequences out of 15000+200000
+ 24581 multiletter control sequences out of 15000+200000
  13036 words of font info for 50 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,9n,74p,1507b,970s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,6n,74p,1507b,787s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on paper_cee_special_issue.dvi (30 pages, 90244 bytes).
+Output written on paper_cee_special_issue.dvi (32 pages, 89892 bytes).

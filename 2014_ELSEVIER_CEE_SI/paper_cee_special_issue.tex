@@ -330,6 +330,18 @@ Existe o conceito de reliable nodes? (acredito que não)
 O algoritmo do CDF completo foi colocado textualmente no artigo original. Será que cabe mesmo utilizar pseudo-code para descrevê-lo?
 
 
+Consider a RPL network $G$ comprised of a set $S$ of nodes and a set $B$ of border routers (DODAGs root). We first introduce the concept of Rank and DODAG preferred parent.
+
+\begin{mydef}
+Rank: Rank $R(u,j)$ is a metric of distance from a given node $u \in S$ to a given DODAG root $j \in B$.
+\end{mydef}
+
+The exact way Rank is computed depends on the DAG Objective Function (OF). Even though the specific computation of the Rank is left to the OF, the Rank of the nodes must monotonically decrease as the DODAG is followed towards the DODAG destination.  Therefore, the Rank can be considered a scalar representation of the location or radius of a node within a DODAG.
+
+\begin{mydef}
+DODAG Preferred Parent (DPP): Let $u$ be a node of $G$, $N(u)$ its one-hop neighbors and $DPP(u,j)$ a restricted subset of $N(u)$. For each node $v \in N(u)$, $v \in DDP(u,j)$ if it is a preferred parent for node $u$ next hop in order to reach a specific DODAG root $j \in B$. OBS.: Conceptually, the preferred parent is a single parent. However, it may be a set of multiple parents if those parents are equally preferred and have identical Rank.
+\end{mydef}
+
 \small
 \begin{algorithm}
 \begin{algorithmic}
