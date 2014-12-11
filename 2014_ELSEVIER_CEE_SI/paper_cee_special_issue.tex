@@ -322,15 +322,12 @@ In order to achieve such behavior it is proposed to integrate the CDF technique 
 
 The proposed algorithm obviously depends on geographic position to implement the geometric portion of the protocol. Therefore, all networks nodes must be static, which favors the RPL protocol as well. This does not mean that there must be only static nodes on the network, but that mobile nodes must be one hop away from a static node. As the street lighting system and others possible applications of such network are mainly formed by static devices, it is possible to store the node position during the installation process.
 
-The \textit{GeoRank} operation is depicted in Algoritm \ref{alg}.
+In order to better describe the entire proposed algorithm it is important to define the main principles in which it is based. Therefore, considering a RPL network $G$ comprised of a set $S$ of nodes and a set $B$ of border routers (DODAGs root), we describe the concept of Rank, DODAG preferred parent and DODAG root list.
 
 Será que não é necessário algumas definições? (não sei, pq a maioria do que precisaria definir já é definido no protocolo RPL)
 Existe o conceito de reliable nodes? (acredito que não)
 
 O algoritmo do CDF completo foi colocado textualmente no artigo original. Será que cabe mesmo utilizar pseudo-code para descrevê-lo?
-
-
-Consider a RPL network $G$ comprised of a set $S$ of nodes and a set $B$ of border routers (DODAGs root). We first introduce the concept of Rank and DODAG preferred parent.
 
 \begin{mydef}
 Rank: Rank $R(u,j)$ is a metric of distance from a given node $u \in S$ to a given DODAG root $j \in B$.
@@ -339,8 +336,49 @@ Rank: Rank $R(u,j)$ is a metric of distance from a given node $u \in S$ to a giv
 The exact way Rank is computed depends on the DAG Objective Function (OF). Even though the specific computation of the Rank is left to the OF, the Rank of the nodes must monotonically decrease as the DODAG is followed towards the DODAG destination.  Therefore, the Rank can be considered a scalar representation of the location or radius of a node within a DODAG.
 
 \begin{mydef}
-DODAG Preferred Parent (DPP): Let $u$ be a node of $G$, $N(u)$ its one-hop neighbors and $DPP(u,j)$ a restricted subset of $N(u)$. For each node $v \in N(u)$, $v \in DDP(u,j)$ if it is a preferred parent for node $u$ next hop in order to reach a specific DODAG root $j \in B$. OBS.: Conceptually, the preferred parent is a single parent. However, it may be a set of multiple parents if those parents are equally preferred and have identical Rank.
+DODAG Preferred Parent (DPP): Let $u$ be a node of $G$, $N(u)$ its one-hop neighbors and $DPP(u,j)$ a restricted subset of $N(u)$. For each node $v \in N(u)$, $v \in DDP(u,j)$ if it has the lowest rank to reach a specific DODAG root $j \in B$. OBS.: Conceptually, the preferred parent is a single parent. However, it may be a set of multiple parents if those parents are equally preferred and have identical Rank.
 \end{mydef}
+
+\begin{mydef}
+DODAG Root List (DRL): each node $v \in N(u)$ should broadcast DIO messages regularly, as previously described. For GeoRank operation, the position of the DODAGs root should be included in such messages. So, let $DRL(j)$ be a list of the DODAGs root position stored in each node $u$ of the network.
+\end{mydef}
+
+It is important to note that the proposed algorithm is only intended for down routes. The up routes should use the traditional RPL protocol, directly based on the DODAG rank. Therefore, based on the above definitions, the overall procedure of the \textit{GeoRank} operation is described as follows.
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\theenumiii}{\arabic{enumiii}}
+\renewcommand{\labelenumi}{\bf (\theenumi)}
+\renewcommand{\labelenumii}{\bf \theenumi.\theenumii.}
+\renewcommand{\labelenumiii}{\bf \theenumi.\theenumii.\theenumiii.}
+\begin{enumerate}
+
+\item \textbf{Initialize the algorithm:} Based on the DRL and, the positions of source and destination nodes, trace a line between the source and destination nodes. After, trace lines between the source node and each of the DODAGs root available in the DRL. The DODAG root $j \in DRL$ that has the smallest absolute angle difference to the source-destination line is chosen as a anchor node for the P2P communication. Finaly, store the position of the chosen DODAG root in the packet being forwarded. The angle calculation is better described in \citep{Denardin2011}.
+
+\item \textbf{Greedy forwarding mode:} If there are one or more DODAG Preferred Parent closer to the destination than the current node, forward the packet to the neighbor with the greater progress towards the destination. If there are no closer DDP, store the current position in the packet and switch to CDF mode.
+
+\item \textbf{GeoRank mode:}
+
+\begin{enumerate}
+\item Select the base station with the smallest angle to the source-destination line, as previously described in section \ref{proposed_strategy} and store this information in the packet.
+
+\item If source and destination nodes are in the same quadrant and destination is closer to the base station than the source node, forward the packet to the reliable neighbor with the lowest depth to the selected base station.
+
+\begin{enumerate}
+\item If the packet reaches a position closer to the destination than the position stored in the packet at step 1, go back to greedy mode.
+
+\item The current node must compute the coordinate with the most desirable progress ($x$ or $y$). If the next hop node position leads to a greater progress in such coordinate, switch the packet to geographic greedy mode.
+\end{enumerate}
+
+\item If source and destination nodes are not in the same quadrant, and base station is closer to the destination than source node, forward the packet to the reliable neighbor with the lowest depth to the selected base station. The proposed conditions in steps 2.2.1 and 2.2.2 must also be checked.
+
+\item If conditions 2.2 and 2.3 are not met, switch the forwarding mode of the packet to a GPSR-like algorithm.
+\end{enumerate}
+
+\item \textbf{GPSR-like algorithm:} In this mode the packet will be delivered or switched back to greedy mode.
+\end{enumerate}
+
+In step 2.2.2, CDF algorithm implements an early fallback mechanism, in order to return to greedy routing before reaching a closer position than the position of the most progress node (stored in step 1 when changed to CDF mode). Such mechanism is based on the most progress axis heuristic. In this heuristic, the current node holding the packet must verify which is the axis closer to the destination node, x or y. Given such axis, the current node will check if the next hop neighbor has more progress in this same axis, considering the current node position. If such condition holds, the packet is switched to greedy mode. This heuristic guarantees that next hop neighbor will not select the previous node through greedy forwarding, therefore free of loops. The mechanism is implemented in the algorithm \ref{alg5}.
 
 \small
 \begin{algorithm}
