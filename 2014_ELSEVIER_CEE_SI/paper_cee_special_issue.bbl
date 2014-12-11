@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{46}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -31,6 +31,25 @@
   uplink iot communication}.
 \newblock \bibinfo{journal}{Vehicular Technology Magazine, IEEE}
   \bibinfo{volume}{9}, \bibinfo{pages}{54--63}.
+%Type = Inproceedings
+\bibitem[{Castro et~al.(2013)Castro, Jara and
+  Skarmeta}]{Smart_City_Smart_Light_2013}
+\bibinfo{author}{Castro, M.}, \bibinfo{author}{Jara, A.},
+  \bibinfo{author}{Skarmeta, A.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Smart lighting solutions for smart cities}, in:
+  \bibinfo{booktitle}{Advanced Information Networking and Applications
+  Workshops (WAINA), 2013 27th International Conference on}, pp.
+  \bibinfo{pages}{1374--1379}.
+%Type = Inproceedings
+\bibitem[{Cenedese et~al.(2014)Cenedese, Zanella, Vangelista and
+  Zorzi}]{Smart_City_IOT_2014c}
+\bibinfo{author}{Cenedese, A.}, \bibinfo{author}{Zanella, A.},
+  \bibinfo{author}{Vangelista, L.}, \bibinfo{author}{Zorzi, M.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Padova smart city: An urban internet of things
+  experimentation}, in: \bibinfo{booktitle}{A World of Wireless, Mobile and
+  Multimedia Networks (WoWMoM), 2014 IEEE 15th International Symposium on}, pp.
+  \bibinfo{pages}{1--6}.
 %Type = Article
 \bibitem[{Chen and Varshney(2007)}]{survey_2007}
 \bibinfo{author}{Chen, D.}, \bibinfo{author}{Varshney, P.},
@@ -111,6 +130,15 @@
 \newblock \bibinfo{journal}{Computer Standards \& Interfaces}
   \bibinfo{volume}{38}, \bibinfo{pages}{25 -- 34}.
 %Type = Inproceedings
+\bibitem[{Ganchev et~al.(2014)Ganchev, Ji and O'Droma}]{Smart_City_IOT_2014d}
+\bibinfo{author}{Ganchev, I.}, \bibinfo{author}{Ji, Z.},
+  \bibinfo{author}{O'Droma, M.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{A generic iot architecture for smart cities}, in:
+  \bibinfo{booktitle}{Irish Signals Systems Conference 2014 and 2014
+  China-Ireland International Conference on Information and Communications
+  Technologies (ISSC 2014/CIICT 2014). 25th IET}, pp.
+  \bibinfo{pages}{196--199}.
+%Type = Inproceedings
 \bibitem[{Giordano et~al.(2001)Giordano, Stojmenovic and
   Blazevic}]{Position_Based_Routing_Ad_Hoc_2001}
 \bibinfo{author}{Giordano, S.}, \bibinfo{author}{Stojmenovic, I.},
@@ -139,6 +167,16 @@
 \newblock \bibinfo{title}{Compression format for ipv6 datagrams over ieee
   802.15.4-based networks}.
 \newblock \bibinfo{howpublished}{IETF RFC 6282}.
+%Type = Article
+\bibitem[{Jin et~al.(2014)Jin, Gubbi, Marusic and
+  Palaniswami}]{Smart_City_IOT_2014b}
+\bibinfo{author}{Jin, J.}, \bibinfo{author}{Gubbi, J.},
+  \bibinfo{author}{Marusic, S.}, \bibinfo{author}{Palaniswami, M.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{An information framework for creating a smart city
+  through internet of things}.
+\newblock \bibinfo{journal}{Internet of Things Journal, IEEE}
+  \bibinfo{volume}{1}, \bibinfo{pages}{112--121}.
 %Type = Inproceedings
 \bibitem[{Jing et~al.(2010)Jing, Ren and Gu}]{WSN_Street_Lighting_2010_2}
 \bibinfo{author}{Jing, C.}, \bibinfo{author}{Ren, L.}, \bibinfo{author}{Gu,
@@ -269,6 +307,24 @@
 \newblock \bibinfo{journal}{Power Delivery, IEEE Transactions on}
   \bibinfo{volume}{28}, \bibinfo{pages}{981--988}.
 %Type = Inproceedings
+\bibitem[{Pellicer et~al.(2013)Pellicer, Santa, Bleda, Maestre, Jara and
+  Gomez~Skarmeta}]{Smart_City_2013}
+\bibinfo{author}{Pellicer, S.}, \bibinfo{author}{Santa, G.},
+  \bibinfo{author}{Bleda, A.}, \bibinfo{author}{Maestre, R.},
+  \bibinfo{author}{Jara, A.}, \bibinfo{author}{Gomez~Skarmeta, A.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{A global perspective of smart cities: A survey}, in:
+  \bibinfo{booktitle}{Innovative Mobile and Internet Services in Ubiquitous
+  Computing (IMIS), 2013 Seventh International Conference on}, pp.
+  \bibinfo{pages}{439--444}.
+%Type = Inproceedings
+\bibitem[{Su et~al.(2011)Su, Li and Fu}]{Smart_City_2011}
+\bibinfo{author}{Su, K.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Fu, H.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Smart city and the applications}, in:
+  \bibinfo{booktitle}{Electronics, Communications and Control (ICECC), 2011
+  International Conference on}, pp. \bibinfo{pages}{1028--1031}.
+%Type = Inproceedings
 \bibitem[{Subramanian et~al.(2007)Subramanian, Shakkottai and
   Gupta}]{On_Optimal_Geographic_Routing_2007}
 \bibinfo{author}{Subramanian, S.}, \bibinfo{author}{Shakkottai, S.},
@@ -277,6 +333,20 @@
   with holes and non-uniform traffic}, in: \bibinfo{booktitle}{INFOCOM 2007.
   26th IEEE International Conference on Computer Communications. IEEE}, pp.
   \bibinfo{pages}{1019 --1027}.
+%Type = Inproceedings
+\bibitem[{Tei and Gurgen(2014)}]{Smart_City_IOT_2014e}
+\bibinfo{author}{Tei, K.}, \bibinfo{author}{Gurgen, L.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Clout : Cloud of things for empowering the citizen
+  clout in smart cities}, in: \bibinfo{booktitle}{Internet of Things (WF-IoT),
+  2014 IEEE World Forum on}, pp. \bibinfo{pages}{369--370}.
+%Type = Inproceedings
+\bibitem[{Theodoridis et~al.(2013)Theodoridis, Mylonas and
+  Chatzigiannakis}]{Smart_City_IOT_2013}
+\bibinfo{author}{Theodoridis, E.}, \bibinfo{author}{Mylonas, G.},
+  \bibinfo{author}{Chatzigiannakis, I.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Developing an iot smart city framework}, in:
+  \bibinfo{booktitle}{Information, Intelligence, Systems and Applications
+  (IISA), 2013 Fourth International Conference on}, pp. \bibinfo{pages}{1--6}.
 %Type = Book
 \bibitem[{Thulasiraman and Swamy(1992)}]{DAGS_1992}
 \bibinfo{author}{Thulasiraman, K.}, \bibinfo{author}{Swamy, N.},
@@ -321,5 +391,14 @@
 \newblock \bibinfo{title}{Design of new intelligent street light control
   system}, in: \bibinfo{booktitle}{Control and Automation (ICCA), 2010 8th IEEE
   International Conference on}, pp. \bibinfo{pages}{1423 --1427}.
+%Type = Article
+\bibitem[{Zanella et~al.(2014)Zanella, Bui, Castellani, Vangelista and
+  Zorzi}]{Smart_City_IOT_2014}
+\bibinfo{author}{Zanella, A.}, \bibinfo{author}{Bui, N.},
+  \bibinfo{author}{Castellani, A.}, \bibinfo{author}{Vangelista, L.},
+  \bibinfo{author}{Zorzi, M.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Internet of things for smart cities}.
+\newblock \bibinfo{journal}{Internet of Things Journal, IEEE}
+  \bibinfo{volume}{1}, \bibinfo{pages}{22--32}.
 
 \end{thebibliography}
