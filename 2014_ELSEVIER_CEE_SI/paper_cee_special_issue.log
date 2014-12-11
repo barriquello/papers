@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  11 DEC 2014 16:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  11 DEC 2014 17:49
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -1014,6 +1014,9 @@ File: figures/hops_range-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/hops_range-eps-converted-to.pdf used on input 
 line 388.
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
+ [21 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/sample_scenari
+os-eps-converted-to.pdf>] [22 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_
+SI/figures/hops_range-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/mem_usage_range.eps>
 (epstopdf)                    date: 2014-11-25 08:53:48
 (epstopdf)                    size: 13150 bytes
@@ -1026,18 +1029,16 @@ df>
 (epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/mem_usage_range-eps-converted-to.pdf, id=96, 420.57124pt x 316.18124pt
->
+<figures/mem_usage_range-eps-converted-to.pdf, id=108, 420.57124pt x 316.18124p
+t>
 File: figures/mem_usage_range-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/mem_usage_range-eps-converted-to.pdf>
 Package pdftex.def Info: figures/mem_usage_range-eps-converted-to.pdf used on i
 nput line 398.
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
- [21 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/sample_scenari
-os-eps-converted-to.pdf>]
-[22 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/hops_range-eps-
-converted-to.pdf>] [23 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figu
-res/mem_usage_range-eps-converted-to.pdf>] [24] [25]
+ [23 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/mem_usage_rang
+e-eps-converted-to.pdf>]
+[24] [25]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.bbl
 [26]
 Missing character: There is no ° in font cmr12!
@@ -1045,9 +1046,8 @@ Missing character: There is no ° in font cmr12!
 Missing character: There is no ã in font cmr12!
  [28] [29]
 Missing character: There is no ã in font cmr12!
- [30]
 Missing character: There is no ã in font cmr12!
- [31]) [32]
+ [30] [31]) [32]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
 ) ) 
 Here is how much of TeX's memory you used:
@@ -1069,7 +1069,7 @@ e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on paper_cee_special_issue.pdf (32 pages, 407688 bytes).
+Output written on paper_cee_special_issue.pdf (32 pages, 408433 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
