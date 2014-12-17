@@ -1892,6 +1892,17 @@
   Timestamp                = {2010.07.20}
 }
 
+@InProceedings{SmartCity_ITS_2013,
+  Title                    = {Supporting smart-city mobility with cognitive Internet of Things},
+  Author                   = {Somov, A. and Dupont, C. and Giaffreda, R.},
+  Booktitle                = {Future Network and Mobile Summit (FutureNetworkSummit), 2013},
+  Year                     = {2013},
+  Month                    = {July},
+  Pages                    = {1-10},
+
+  Keywords                 = {Internet of Things;mobile computing;mobility management (mobile radio);traffic engineering computing;wireless sensor networks;IoT;VO model;WSN control;WSN monitoring;city-scale traffic monitoring sensor network;cognitive Internet of things;data generation;proprietary formats;raw sensor measurements;resource limitation;sensors;smart-city mobility;virtual object model;virtual representation;wireless sensor network;Cities and towns;Context;Monitoring;Resource description framework;Servers;Vehicles;Wireless sensor networks;Internet of Things (IoT);Resource Description Framework (RDF);smart city;traffic monitoring}
+}
+
 @Article{Song:2007:TPS:1392066.1392068,
   Title                    = {Time-optimum packet scheduling for many-to-one routing in wireless sensor networks},
   Author                   = {Song, Wen-Zhan and Yuan, Fenghua and LaHusen, Richard and Shirazi, Behrooz},
