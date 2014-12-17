@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{49}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -161,6 +161,12 @@
   wireless sensor networks: Rpl under study}, in: \bibinfo{booktitle}{Wireless
   and Mobile Networking Conference (WMNC), 2013 6th Joint IFIP}, pp.
   \bibinfo{pages}{1--4}.
+%Type = Article
+\bibitem[{Hui and Culler(2010)}]{IPv6_LLN_2010}
+\bibinfo{author}{Hui, J.}, \bibinfo{author}{Culler, D.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Ipv6 in low-power wireless networks}.
+\newblock \bibinfo{journal}{Proceedings of the IEEE} \bibinfo{volume}{98},
+  \bibinfo{pages}{1865--1878}.
 %Type = Misc
 \bibitem[{Hui and Thubert(2011)}]{RFC6282}
 \bibinfo{author}{Hui, J.}, \bibinfo{author}{Thubert, P.}, \bibinfo{year}{2011}.
@@ -201,6 +207,19 @@
   International Conference on Mobile Computing and Networking},
   \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
   \bibinfo{pages}{243--254}.
+%Type = Inproceedings
+\bibitem[{Ko et~al.(2011)Ko, Eriksson, Tsiftes, Dawson-Haggerty, Vasseur,
+  Durvy, Terzis, Dunkels and Culler}]{IPv6_LLN_2011}
+\bibinfo{author}{Ko, J.}, \bibinfo{author}{Eriksson, J.},
+  \bibinfo{author}{Tsiftes, N.}, \bibinfo{author}{Dawson-Haggerty, S.},
+  \bibinfo{author}{Vasseur, J.P.}, \bibinfo{author}{Durvy, M.},
+  \bibinfo{author}{Terzis, A.}, \bibinfo{author}{Dunkels, A.},
+  \bibinfo{author}{Culler, D.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Industry: Beyond interoperability: Pushing the
+  performance of sensor network ip stacks}, in: \bibinfo{booktitle}{Proceedings
+  of the 9th ACM Conference on Embedded Networked Sensor Systems},
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{pages}{1--11}.
 %Type = Article
 \bibitem[{Kuhn et~al.(2008)Kuhn, Wattenhofer and Zollinger}]{GOAFR_2008}
 \bibinfo{author}{Kuhn, F.}, \bibinfo{author}{Wattenhofer, R.},
@@ -317,6 +336,13 @@
   \bibinfo{booktitle}{Innovative Mobile and Internet Services in Ubiquitous
   Computing (IMIS), 2013 Seventh International Conference on}, pp.
   \bibinfo{pages}{439--444}.
+%Type = Inproceedings
+\bibitem[{Somov et~al.(2013)Somov, Dupont and Giaffreda}]{SmartCity_ITS_2013}
+\bibinfo{author}{Somov, A.}, \bibinfo{author}{Dupont, C.},
+  \bibinfo{author}{Giaffreda, R.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Supporting smart-city mobility with cognitive
+  internet of things}, in: \bibinfo{booktitle}{Future Network and Mobile Summit
+  (FutureNetworkSummit), 2013}, pp. \bibinfo{pages}{1--10}.
 %Type = Inproceedings
 \bibitem[{Su et~al.(2011)Su, Li and Fu}]{Smart_City_2011}
 \bibinfo{author}{Su, K.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Fu, H.},

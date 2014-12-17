@@ -881,6 +881,22 @@
   Timestamp                = {2010.10.06}
 }
 
+@Article{IPv6_LLN_2010,
+  Title                    = {IPv6 in Low-Power Wireless Networks},
+  Author                   = {Hui, J.W. and Culler, D.E.},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {2010},
+
+  Month                    = {Nov},
+  Number                   = {11},
+  Pages                    = {1865-1878},
+  Volume                   = {98},
+
+  Doi                      = {10.1109/JPROC.2010.2065791},
+  ISSN                     = {0018-9219},
+  Keywords                 = {IP networks;Internet;protocols;wireless sensor networks;IPv6 protocol;Internet protocol version 6;computer hosts;low-power multihop wireless networking;wireless sensor network;Ad hoc networks;Ethernet networks;IP networks;Internet;Routing protocols;Wireless sensor networks;6LoWPAN;Ad hoc networks;IEEE 802.15.4;IP networks;IPv6;ROLL;RPL;internet;internetworking;low-power wireless networks;mesh networks;wireless mesh networks;wireless networks;wireless sensor networks}
+}
+
 @Misc{RFC6282,
   Title                    = {Compression Format for IPv6 Datagrams over IEEE 802.15.4-Based Networks},
 
@@ -2071,6 +2087,21 @@
   Owner                    = {gustavo},
   Timestamp                = {2014.08.12},
   Url                      = {http://books.google.com.br/books?id=4kHN6uSinQoC}
+}
+
+@Article{Tripathi2014,
+  Title                    = {Proactive versus reactive routing in low power and lossy networks: Performance analysis and scalability improvements },
+  Author                   = {Joydeep Tripathi and Jaudelice C. de Oliveira and J.P. Vasseur},
+  Journal                  = {Ad Hoc Networks },
+  Year                     = {2014},
+  Number                   = {0},
+  Pages                    = {121 - 144},
+  Volume                   = {23},
+
+  Doi                      = {http://dx.doi.org/10.1016/j.adhoc.2014.06.007},
+  ISSN                     = {1570-8705},
+  Keywords                 = {Low Power Lossy Networks (LLNs)},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1570870514001243}
 }
 
 @Article{Virtual_Coordinate_Based_Delivery_Guaranteed2009,
