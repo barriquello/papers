@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  17 DEC 2014 18:43
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  18 DEC 2014 15:33
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -939,7 +939,7 @@ Package epstopdf Info: Source file: <figures/RPL_DAO.eps>
 (epstopdf)                    size: 7495 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/RPL_DAO-eps-convert
 ed-to.pdf figures/RPL_DAO.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/RPL_DAO-eps-converted-to.pdf, id=60, 442.65375pt x 158.5925pt>
@@ -947,13 +947,13 @@ File: figures/RPL_DAO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/RPL_DAO-eps-converted-to.pdf>
 Package pdftex.def Info: figures/RPL_DAO-eps-converted-to.pdf used on input lin
-e 292.
+e 293.
 (pdftex.def)             Requested size: 390.0pt x 139.73604pt.
  [13] [14 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/RPL_DAO-e
 ps-converted-to.pdf>] [15] [16]
 [17] [18] [19]
 
-LaTeX Warning: Float too large for page by 17.53955pt on input line 383.
+LaTeX Warning: Float too large for page by 17.53955pt on input line 384.
 
 [20] [21]
 Package epstopdf Info: Source file: <figures/sample_scenarios.eps>
@@ -965,7 +965,7 @@ pdf>
 (epstopdf)                    size: 158004 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/sample_scenarios-ep
 s-converted-to.pdf figures/sample_scenarios.eps>
-(epstopdf)             \includegraphics on input line 397.
+(epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/sample_scenarios-eps-converted-to.pdf, id=97, 1513.655pt x 282.05376pt
@@ -973,7 +973,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: figures/sample_scenarios-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/sample_scenarios-eps-converted-to.pdf>
 Package pdftex.def Info: figures/sample_scenarios-eps-converted-to.pdf used on 
-input line 397.
+input line 398.
 (pdftex.def)             Requested size: 390.0pt x 72.66945pt.
 Package epstopdf Info: Source file: <figures/hops_range.eps>
 (epstopdf)                    date: 2014-11-25 08:54:24
@@ -983,7 +983,7 @@ Package epstopdf Info: Source file: <figures/hops_range.eps>
 (epstopdf)                    size: 4926 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/hops_range-eps-conv
 erted-to.pdf figures/hops_range.eps>
-(epstopdf)             \includegraphics on input line 406.
+(epstopdf)             \includegraphics on input line 407.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/hops_range-eps-converted-to.pdf, id=98, 420.57124pt x 316.18124pt>
@@ -991,7 +991,7 @@ File: figures/hops_range-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/hops_range-eps-converted-to.pdf>
 Package pdftex.def Info: figures/hops_range-eps-converted-to.pdf used on input 
-line 406.
+line 407.
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
  [22] [23 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/sample_sc
 enarios-eps-converted-to.pdf> <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_
@@ -1005,7 +1005,7 @@ df>
 (epstopdf)                    size: 4714 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/mem_usage_range-eps
 -converted-to.pdf figures/mem_usage_range.eps>
-(epstopdf)             \includegraphics on input line 416.
+(epstopdf)             \includegraphics on input line 417.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/mem_usage_range-eps-converted-to.pdf, id=111, 420.57124pt x 316.18124p
@@ -1013,7 +1013,7 @@ t>
 File: figures/mem_usage_range-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/mem_usage_range-eps-converted-to.pdf>
 Package pdftex.def Info: figures/mem_usage_range-eps-converted-to.pdf used on i
-nput line 416.
+nput line 417.
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
  [24 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/mem_usage_rang
 e-eps-converted-to.pdf>]
@@ -1028,26 +1028,30 @@ Missing character: There is no ã in font cmr12!
 Missing character: There is no ã in font cmr12!
  [32] [33]) [34]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  21860 strings out of 494045
  517557 string characters out of 3148341
- 647444 words of memory out of 3000000
+ 647434 words of memory out of 3000000
  24658 multiletter control sequences out of 15000+200000
  14284 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  63i,8n,74p,1507b,785s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
 Output written on paper_cee_special_issue.pdf (34 pages, 422708 bytes).
 PDF statistics:
  188 PDF objects out of 1000 (max. 8388607)
