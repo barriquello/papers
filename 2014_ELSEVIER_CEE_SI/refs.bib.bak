@@ -418,6 +418,19 @@
   Url                      = {http://tools.ietf.org/html/draft-clausen-lln-rpl-experiences-05}
 }
 
+@Misc{LOADng_2012,
+  Title                    = {The LLN On-demand Ad-hoc Distance-Vector Routing Protocol-Next Generation (LOADng)},
+
+  Author                   = {T. Clausen AND  A. Colin de Verdiere AND  J. Yi AND A. Niktash AND Y. Igarashi AND H. Satoh AND U. Herberg AND C. Lavenu AND T. Lys AND J. Dean},
+  HowPublished             = {DRAFT},
+  Month                    = {October},
+  Year                     = {2014},
+
+  Owner                    = {Universidade Federal},
+  Timestamp                = {2014.12.19},
+  Url                      = {http://tools.ietf.org/html/draft-clausen-lln-loadng-12}
+}
+
 @Misc{RFC4443,
   Title                    = {Internet Control Message Protocol (ICMPv6) for the Internet Protocol Version 6 (IPv6) Specification},
 
@@ -1153,6 +1166,26 @@
   Owner                    = {Universidade Federal},
   Timestamp                = {2014.07.21},
   Url                      = {http://dl.acm.org/citation.cfm?id=1251203.1251219}
+}
+
+@InProceedings{IPv6_LLN_2011,
+  Title                    = {Industry: Beyond Interoperability: Pushing the Performance of Sensor Network IP Stacks},
+  Author                   = {Ko, JeongGil and Eriksson, Joakim and Tsiftes, Nicolas and Dawson-Haggerty, Stephen and Vasseur, Jean-Philippe and Durvy, Mathilde and Terzis, Andreas and Dunkels, Adam and Culler, David},
+  Booktitle                = {Proceedings of the 9th ACM Conference on Embedded Networked Sensor Systems},
+  Year                     = {2011},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {1--11},
+  Publisher                = {ACM},
+  Series                   = {SenSys '11},
+
+  Acmid                    = {2070944},
+  Doi                      = {10.1145/2070942.2070944},
+  ISBN                     = {978-1-4503-0718-5},
+  Keywords                 = {6LoWPAN, Contiki, IETF, IPv6, RPL, TinyOS, interoperability, sensor network},
+  Location                 = {Seattle, Washington},
+  Numpages                 = {11},
+  Url                      = {http://doi.acm.org/10.1145/2070942.2070944}
 }
 
 @Article{Anefficientvoidresolution_2009,

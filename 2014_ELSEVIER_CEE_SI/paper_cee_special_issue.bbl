@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{52}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -66,14 +66,25 @@
   lossy environments}.
 \newblock \bibinfo{howpublished}{Rapport de recherche n° 7540}.
 %Type = Misc
-\bibitem[{Clausen et~al.(2014)Clausen, de~Verdiere, Yi, Herberg and
+\bibitem[{Clausen et~al.(2014a)Clausen, de~Verdiere, Yi, Herberg and
   Igarashi}]{RPL_observations}
 \bibinfo{author}{Clausen, T.}, \bibinfo{author}{de~Verdiere, A.C.},
   \bibinfo{author}{Yi, J.}, \bibinfo{author}{Herberg, U.},
-  \bibinfo{author}{Igarashi, Y.}, \bibinfo{year}{2014}.
+  \bibinfo{author}{Igarashi, Y.}, \bibinfo{year}{2014}a.
 \newblock \bibinfo{title}{Observations of rpl: Ipv6 routing protocol for low
   power and lossy networks}.
 \newblock \bibinfo{howpublished}{Internet-Draft}.
+%Type = Misc
+\bibitem[{Clausen et~al.(2014b)Clausen, de~Verdiere, Yi, Niktash, Igarashi,
+  Satoh, Herberg, Lavenu, Lys and Dean}]{LOADng_2012}
+\bibinfo{author}{Clausen, T.}, \bibinfo{author}{de~Verdiere, A.C.},
+  \bibinfo{author}{Yi, J.}, \bibinfo{author}{Niktash, A.},
+  \bibinfo{author}{Igarashi, Y.}, \bibinfo{author}{Satoh, H.},
+  \bibinfo{author}{Herberg, U.}, \bibinfo{author}{Lavenu, C.},
+  \bibinfo{author}{Lys, T.}, \bibinfo{author}{Dean, J.}, \bibinfo{year}{2014}b.
+\newblock \bibinfo{title}{The lln on-demand ad-hoc distance-vector routing
+  protocol-next generation (loadng)}.
+\newblock \bibinfo{howpublished}{DRAFT}.
 %Type = Misc
 \bibitem[{Conta et~al.(2006)Conta, Deering and Gupta}]{RFC4443}
 \bibinfo{author}{Conta, A.}, \bibinfo{author}{Deering, S.},
@@ -379,12 +390,29 @@
   \bibinfo{year}{1992}.
 \newblock \bibinfo{title}{Graphs: Theory and Algorithms}.
 \newblock A Wiley interscience publication, \bibinfo{publisher}{Wiley}.
+%Type = Article
+\bibitem[{Tripathi et~al.(2014)Tripathi, de~Oliveira and
+  Vasseur}]{Tripathi2014}
+\bibinfo{author}{Tripathi, J.}, \bibinfo{author}{de~Oliveira, J.C.},
+  \bibinfo{author}{Vasseur, J.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Proactive versus reactive routing in low power and
+  lossy networks: Performance analysis and scalability improvements}.
+\newblock \bibinfo{journal}{Ad Hoc Networks} \bibinfo{volume}{23},
+  \bibinfo{pages}{121 -- 144}.
 %Type = Misc
 \bibitem[{Vasseur(2014)}]{RFC7102}
 \bibinfo{author}{Vasseur, J.}, \bibinfo{year}{2014}.
 \newblock \bibinfo{title}{Terms used in routing for low-power and lossy
   networks}.
 \newblock \bibinfo{howpublished}{RFC7102}.
+%Type = Inproceedings
+\bibitem[{Vucinic et~al.(2013)Vucinic, Tourancheau and Duda}]{Vucinic_2013}
+\bibinfo{author}{Vucinic, M.}, \bibinfo{author}{Tourancheau, B.},
+  \bibinfo{author}{Duda, A.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Performance comparison of the rpl and loadng routing
+  protocols in a home automation scenario}, in: \bibinfo{booktitle}{Wireless
+  Communications and Networking Conference (WCNC), 2013 IEEE}, pp.
+  \bibinfo{pages}{1974--1979}.
 %Type = Misc
 \bibitem[{Winter et~al.(2012)Winter, Thubert, Brandt, Hui, Kelsey, Levis,
   Pister, Struik, Vasseur and Alexander}]{RFC6550}
