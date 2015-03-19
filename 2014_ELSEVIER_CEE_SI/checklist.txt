@@ -1,28 +1,46 @@
+In preparing the final version, it is VERY IMPORTANT to pay careful attention to the following points to prevent the need for additional revisions.
+
+*       EDIT THE PAPER CAREFULLY. It is recommended to use a professional native English-speaking editor. Papers with less than excellent English will not be published even if technically perfect.
+
+*       Up front in your re-submission, describe how the comments of each reviewer are addressed.
+
+*       The paper's title should be concise and as short as possible. Do not use any acronyms in the paper's title.
+
+*       Make sure the Abstract succinctly describes the paper as it is used in abstracting and citation services. Keep the Abstract between 100 to 150 words. Do not use any references in the Abstract!
+
+*       Spell out each acronym the first time used in the body of the paper. Spell out acronyms in the Abstract only if used there.
+
+*       Include a list of four to ten key words after the Abstract.
+
+*       Include a paragraph at the end of the Introduction describing the organization of the paper.
+
+*       Make sure that the Conclusion succinctly summarizes the paper; it should not repeat phrases from the Introduction (such as 'This paper presents ...')! Keep the Conclusion to about 300 words. Do not use any references in the Conclusion!
+
+*       Number references sequentially as they are used in the text (not alphabetically). Each reference must be referred to in the text. Try to limit the number of references to no more than 25. Provide complete information for all references (authors' names, journal name, pages, etc.; do not use et al for authors).
+
+*       Make sure all figures and tables are referred to in the body of the paper.
+
+*       The maximum allowed paper size is 25 double-spaced single-column pages with font no less than 10 (including any tables and figures). Pages must be numbered.
+
+*       Include a short bio of each co-author after the list of references. The bio of each co-author must not exceed 60 words; otherwise you'll be asked to shorten it, causing delay. Please use only pronouns, not titles (like Prof., Dr., etc.). No picture is needed; do not include any.
+
+*       At this stage the final version must be submitted within 30 days even though the system shows 60 days.
+
+Reviewer #1: The authors have revised their manuscript, answering all questions and comments from all reviewers in the first round.
+
+Without the focus on street light systems, the contribution of this research work should be accepted for publication. It improves routing protocols for random P2P communications in wireless sensor networks.  However, the authors explicitly design and evaluate their routing protocol for street light systems, and hence the contribution in this manuscript should be evaluated by reviewers in this particular context, not in the general context of wireless sensor networks.
+
+In the particular context of street light systems, the authors do not justify or define the concrete application that would require a street light system to send messages randomly from any street light to any other street light. In this context, the appropriateness of the simulated evaluation cannot be asserted. If the application is not related to the lighting system (eg, air pollution or traffic management), then the authors assume that the lighting system is only used by the application for its readily deployed infrastructure, not its capacity of lighting the streets. But in that case, the reference to the street lighting system should be anecdotal, somewhere at the end of the paper to justify how easy it could be to deploy a wireless sensor network in urban zones, based on the existing lighting system.
+
+In any case, if the authors insist that their protocol is designed for lighting systems, then the design and evaluation should exploit the characteristics of street lighting systems. What is the difference between this context and a randomly deployed wireless sensor network in a rural area (eg, for military or agricultural purpose)? Wouldn't the routing protocol work with the same performance? Did the authors really design that protocol based on characteristics of street lighting systems? In that case, why are the buildings not taken into account for the signal propagation, instead of an idealistic disk radio coverage? Especially for a protocol involving geographical routing, the closest node geographically behind a building might not be considered as a neighbour, whereas a much further node in the same street might be the only neighbour, because of the better signal propagation in the same street. The proposed routing protocol should be evaluated in this realistic and
+particular context, since it is claimed to be designed for it.
 
 Reviewer #2:
 
-[X] Finally, graph for Figure 6 does not show any higher order statistics, only the average values. 
-You should include standard deviation or confidence interval if different seeds were used in your simulations.
-R: confidence intervals have been included
+[X] OK
 
 Reviewer #3:
 
-[X] In section 4, low and high link density is mentioned, but it is not clear how to 
-differentiate a low link density to a high link density and how it is modelled during the simulations.
+[X] The detail added on the simulation environment used is somewhat a surprise - why use a custom simulator when so many already exist designed for this kind of thing. Ideal MAC and PHY layers are a luxurious assumption when designing the layer that depends upon and interacts with both of them.
 
-R: The link density is modelled in the simulations by the radio range, 
-the distance between neighboring nodes, and the constrained placement of nodes, 
-as the nodes are not allowed to be in the regions enclosed by the streets.
-
-[x] The last paragraph of the results section explain that "in a smart street lighting [network], 
-thre may be some places where the link density is very low due to obstacles". 
-
-Were obstacles simulated in the simulation environment? 
-R: Yes. The obstacles have been simulated by the constrained node placement, as explained above.
-
-How low is very low? 
-R: Very low density is the density obtained when the radio range is set to the minimum value required to keep the network connected. 
-The network is connected when, for any two nodes in the network, there is at least one path connecting them.
-
-Generally, a street light will have visibility of some other nodes in the same street? 
-R: Yes.
+If accepted, the title MUST be reviewed, at present it does not make any grammatical sense. Also, it doesn't really reflect the contribution of the paper - it's not really a new routing algorithm, it's a combination of RPL and GOAFR (or an automated run-time selection between the two).
