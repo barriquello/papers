@@ -20,8 +20,8 @@
   \bibinfo{author}{Goyal, M.}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{The p2p-rpl routing protocol for ipv6 sensor
   networks: Testbed experiments}, in: \bibinfo{booktitle}{Software,
-  Telecommunications and Computer Networks (SoftCOM), 2011 19th International
-  Conference on}, pp. \bibinfo{pages}{1 --6}.
+  Telecommunications and Computer Networks (SoftCOM), 2011 19th Int. Conf.},
+  pp. \bibinfo{pages}{1 --6}.
 %Type = Article
 \bibitem[{Bontu et~al.(2014)Bontu, Periyalwar and Pecen}]{celullar_iot}
 \bibinfo{author}{Bontu, C.}, \bibinfo{author}{Periyalwar, S.},
@@ -48,7 +48,7 @@
   \bibinfo{year}{2014}.
 \newblock \bibinfo{title}{Padova smart city: An urban internet of things
   experimentation}, in: \bibinfo{booktitle}{A World of Wireless, Mobile and
-  Multimedia Networks (WoWMoM), 2014 IEEE 15th International Symposium on}, pp.
+  Multimedia Networks (WoWMoM), 2014 IEEE 15th Int. Symp. on}, pp.
   \bibinfo{pages}{1--6}.
 %Type = Article
 \bibitem[{Chen and Varshney(2007)}]{survey_2007}
@@ -101,7 +101,7 @@
   \bibinfo{year}{2010}.
 \newblock \bibinfo{title}{Autonomous street lighting system based on solar
   energy and leds}, in: \bibinfo{booktitle}{Industrial Technology (ICIT), 2010
-  IEEE International Conference on}, pp. \bibinfo{pages}{1143 --1148}.
+  IEEE Int. Conf. on}, pp. \bibinfo{pages}{1143 --1148}.
 %Type = Inproceedings
 \bibitem[{Denardin et~al.(2009)Denardin, Barriquello, Pinto, Silva, Campos and
   do~Prado}]{Our_IAS_2009}
@@ -111,7 +111,7 @@
   \bibinfo{year}{2009}.
 \newblock \bibinfo{title}{An intelligent system for street lighting control and
   measurement}, in: \bibinfo{booktitle}{Industry Applications Society Annual
-  Meeting, 2009. IAS 2009. IEEE}, pp. \bibinfo{pages}{1 --5}.
+  Meeting, 2009. IEEE}, pp. \bibinfo{pages}{1 --5}.
 %Type = Inproceedings
 \bibitem[{Denardin et~al.(2003)Denardin, Silveira, do~Prado and
   Campos}]{PLC_Street_Lighting_2003}
@@ -120,7 +120,7 @@
   \bibinfo{year}{2003}.
 \newblock \bibinfo{title}{Specifications for a power management fieldbus}, in:
   \bibinfo{booktitle}{Industrial Electronics Society, 2003. IECON '03. The 29th
-  Annual Conference of the IEEE}, pp. \bibinfo{pages}{1272 -- 1277 Vol.2}.
+  Annual Conf. of the IEEE}, pp. \bibinfo{pages}{1272 -- 1277 Vol.2}.
 %Type = Article
 \bibitem[{Denardin et~al.(2011)Denardin, Barriquello, Campos and
   do~Prado}]{Denardin2011}
@@ -130,7 +130,7 @@
 \newblock \bibinfo{title}{A geographic routing hybrid approach for void
   resolution in wireless sensor networks}.
 \newblock \bibinfo{journal}{Journal of Systems and Software}
-  \bibinfo{volume}{In Press, Corrected Proof}, \bibinfo{pages}{--}.
+  \bibinfo{volume}{84}, \bibinfo{pages}{1577 -- 1590}.
 %Type = Article
 \bibitem[{da~Fonseca et~al.(2015)da~Fonseca, Pantoni and
   Brandão}]{daFonseca_2015}
@@ -214,10 +214,9 @@
 \bibitem[{Karp and Kung(2000)}]{Karp_GPSR_2000}
 \bibinfo{author}{Karp, B.}, \bibinfo{author}{Kung, H.T.}, \bibinfo{year}{2000}.
 \newblock \bibinfo{title}{Gpsr: Greedy perimeter stateless routing for wireless
-  networks}, in: \bibinfo{booktitle}{Proceedings of the 6th Annual
-  International Conference on Mobile Computing and Networking},
-  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
-  \bibinfo{pages}{243--254}.
+  networks}, in: \bibinfo{booktitle}{Proceedings of the 6th Annual Int. Conf.
+  on Mobile Computing and Networking}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{243--254}.
 %Type = Inproceedings
 \bibitem[{Ko et~al.(2011)Ko, Eriksson, Tsiftes, Dawson-Haggerty, Vasseur,
   Durvy, Terzis, Dunkels and Culler}]{IPv6_LLN_2011}
@@ -227,8 +226,8 @@
   \bibinfo{author}{Terzis, A.}, \bibinfo{author}{Dunkels, A.},
   \bibinfo{author}{Culler, D.}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{Industry: Beyond interoperability: Pushing the
-  performance of sensor network ip stacks}, in: \bibinfo{booktitle}{Proceedings
-  of the 9th ACM Conference on Embedded Networked Sensor Systems},
+  performance of sensor network ip stacks}, in: \bibinfo{booktitle}{Proc. of
+  the 9th ACM Conf. on Embedded Networked Sensor Systems},
   \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
   \bibinfo{pages}{1--11}.
 %Type = Article
@@ -255,9 +254,8 @@
   \bibinfo{year}{2004}.
 \newblock \bibinfo{title}{Trickle: A self-regulating algorithm for code
   propagation and maintenance in wireless sensor networks}, in:
-  \bibinfo{booktitle}{In Proceedings of the First USENIX/ACM Symposium on
-  Networked Systems Design and Implementation (NSDI}, pp.
-  \bibinfo{pages}{15--28}.
+  \bibinfo{booktitle}{In Proc. of the First USENIX/ACM Symp. on Networked
+  Systems Design and Implementation}, pp. \bibinfo{pages}{15--28}.
 %Type = Inproceedings
 \bibitem[{Liu et~al.(2009)Liu, Qi, Liu, zhi Yu and
   Sun}]{Cellular_Street_Lighting_2009_1}
@@ -266,7 +264,7 @@
   \bibinfo{year}{2009}.
 \newblock \bibinfo{title}{The design and realization of communication
   technology for street lamps control system}, in: \bibinfo{booktitle}{Computer
-  Science Education, 2009. ICCSE '09. 4th International Conference on}, pp.
+  Science Education, 2009. ICCSE '09. 4th Int. Conf. on}, pp.
   \bibinfo{pages}{259 --262}.
 %Type = Inproceedings
 \bibitem[{Long and Zhou(2008)}]{CRI_2008}
@@ -283,8 +281,8 @@
   \bibinfo{author}{Souza, R.}, \bibinfo{author}{Tonkoski, J.},
   \bibinfo{author}{Dos~Reis, R.}, \bibinfo{year}{2006}.
 \newblock \bibinfo{title}{Integrated system for intelligent street lighting},
-  in: \bibinfo{booktitle}{Industrial Electronics, 2006 IEEE International
-  Symposium on}, pp. \bibinfo{pages}{721 --726}.
+  in: \bibinfo{booktitle}{Industrial Electronics, 2006 IEEE Int. Symp. on}, pp.
+  \bibinfo{pages}{721 --726}.
 %Type = Inproceedings
 \bibitem[{Mendalka et~al.(2010)Mendalka, Gadaj, Kulas and
   Nyka}]{WSN_Street_Lighting_2010_1}
@@ -307,8 +305,8 @@
 \bibitem[{Mulligan(2007)}]{Mulligan_6LoWPAN_2007}
 \bibinfo{author}{Mulligan, G.}, \bibinfo{year}{2007}.
 \newblock \bibinfo{title}{The 6lowpan architecture}, in:
-  \bibinfo{booktitle}{Proceedings of the 4th Workshop on Embedded Networked
-  Sensors}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{booktitle}{Proc. of the 4th Workshop on Embedded Networked Sensors},
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
   \bibinfo{pages}{78--82}.
 %Type = Article
 \bibitem[{Pantoni and Brandão(2011)}]{Pantoni_2011}
@@ -334,7 +332,7 @@
   \bibinfo{year}{2013}.
 \newblock \bibinfo{title}{Application of narrowband power-line communication in
   medium-voltage smart distribution grids}.
-\newblock \bibinfo{journal}{Power Delivery, IEEE Transactions on}
+\newblock \bibinfo{journal}{Power Delivery, IEEE Trans. on}
   \bibinfo{volume}{28}, \bibinfo{pages}{981--988}.
 %Type = Inproceedings
 \bibitem[{Pellicer et~al.(2013)Pellicer, Santa, Bleda, Maestre, Jara and
@@ -345,8 +343,7 @@
   \bibinfo{year}{2013}.
 \newblock \bibinfo{title}{A global perspective of smart cities: A survey}, in:
   \bibinfo{booktitle}{Innovative Mobile and Internet Services in Ubiquitous
-  Computing (IMIS), 2013 Seventh International Conference on}, pp.
-  \bibinfo{pages}{439--444}.
+  Computing (IMIS), 2013 Seventh Int. Conf. on}, pp. \bibinfo{pages}{439--444}.
 %Type = Inproceedings
 \bibitem[{Somov et~al.(2013)Somov, Dupont and Giaffreda}]{SmartCity_ITS_2013}
 \bibinfo{author}{Somov, A.}, \bibinfo{author}{Dupont, C.},
@@ -360,7 +357,7 @@
   \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{Smart city and the applications}, in:
   \bibinfo{booktitle}{Electronics, Communications and Control (ICECC), 2011
-  International Conference on}, pp. \bibinfo{pages}{1028--1031}.
+  Int. Conf. on}, pp. \bibinfo{pages}{1028--1031}.
 %Type = Inproceedings
 \bibitem[{Subramanian et~al.(2007)Subramanian, Shakkottai and
   Gupta}]{On_Optimal_Geographic_Routing_2007}
@@ -368,7 +365,7 @@
   \bibinfo{author}{Gupta, P.}, \bibinfo{year}{2007}.
 \newblock \bibinfo{title}{On optimal geographic routing in wireless networks
   with holes and non-uniform traffic}, in: \bibinfo{booktitle}{INFOCOM 2007.
-  26th IEEE International Conference on Computer Communications. IEEE}, pp.
+  26th IEEE Int. Conf. on Computer Communications. IEEE}, pp.
   \bibinfo{pages}{1019 --1027}.
 %Type = Inproceedings
 \bibitem[{Tei and Gurgen(2014)}]{Smart_City_IOT_2014e}
@@ -434,8 +431,8 @@
   \bibinfo{author}{Durresi, A.}, \bibinfo{year}{2010}.
 \newblock \bibinfo{title}{A performance analysis of point-to-point routing
   along a directed acyclic graph in low power and lossy networks}, in:
-  \bibinfo{booktitle}{Network-Based Information Systems (NBiS), 2010 13th
-  International Conference on}, pp. \bibinfo{pages}{111 --116}.
+  \bibinfo{booktitle}{Network-Based Information Systems (NBiS), 2010 13th Int.
+  Conf. on}, pp. \bibinfo{pages}{111 --116}.
 %Type = Inproceedings
 \bibitem[{Yue et~al.(2010)Yue, Changhong, Xianghong and
   Wei}]{Cellular_Street_Lighting_2010_1}
