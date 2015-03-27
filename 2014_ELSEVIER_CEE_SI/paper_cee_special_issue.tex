@@ -365,7 +365,7 @@ It is important to note that the proposed algorithm is only intended for down ro
 
 \vspace{2.5mm}
 
-\STATE \textbf{3. GeoRank mode:} If the destination node is closer to the anchor node $j$ (stored in the packet being routed) than the current node holding the packet $u$, forward the packet to the DODAG Preferred Parent $v \in DDP(u,j)$. Repeat such process until : \textbf{a)} the packet reaches a node $u$ whose position is closer to the destination than the position stored in the packet at step 2; \textbf{b)} the packet reach the DODAG root $j$; \textbf{c)} the packet reach the destination node. If condition ``a'' is met, go back to step 2. If condition ``b'' or ``c'' is satisfied, go to step 4.
+\STATE \textbf{3. GeoRank mode:} If the destination node is closer to the anchor node $j$ (stored in the packet being routed) than the current node holding the packet $u$, forward the packet to the DODAG Preferred Parent $v \in DDP(u,j)$. Repeat such process until : \textbf{a)} the packet reaches a node $u$ whose position is closer to the destination than the position stored in the packet at step 2; \textbf{b)} the packet reach the DODAG root $j$; \textbf{c)} the packet reach the destination node. If condition ``a'' is met, go back to step 2. If condition ``b'' is satisfied, go to step 4.
 
 \vspace{2.5mm}
 
