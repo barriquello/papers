@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  27 MAR 2015 12:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  27 MAR 2015 16:26
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -1014,7 +1014,21 @@ Missing character: There is no ã in font cmr12!
  [27] [28] [29]
 Missing character: There is no ã in font cmr12!
 Missing character: There is no ã in font cmr12!
- [30] [31] [32]) [33]
+ [30] [31] [32])
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.513 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[33]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
 ) ) 
 Here is how much of TeX's memory you used:
@@ -1036,7 +1050,7 @@ e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on paper_cee_special_issue.pdf (33 pages, 412616 bytes).
+Output written on paper_cee_special_issue.pdf (33 pages, 414099 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
