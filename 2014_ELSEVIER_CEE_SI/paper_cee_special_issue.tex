@@ -136,7 +136,9 @@
 %% \address{Address\fnref{label3}}
 %% \fntext[label3]{}
 
-\title{A routing protocol for an urban IoT based on a smart street lighting wireless sensor network}
+%\title{A routing protocol for an urban IoT based on a smart street lighting wireless sensor network}
+\title{A geographic routing approach for IPv6 in low-powered and lossy large-scale wireless networks}
+
 
 %% use optional labels to link authors explicitly to addresses:
 %% \author[label1,label2]{<author name>}
@@ -153,8 +155,8 @@
 
 \begin{abstract}
 %% Text of abstract
-In this paper, we propose a routing protocol for a smart street lighting system based on IPv6-enabled wireless sensor network. We discuss the main drawbacks of the RPL (IPv6 Routing Protocol for
-Low-Power and Lossy Networks) for P2P (point-to-point) communication in large-scale 6LoWPAN networks. Then, we address such drawbacks by proposing a new routing algorithm, named \textit{GeoRank}, which integrates RPL protocol with the position-based routing protocol GOAFR (Greedy Other Adaptive Face Routing). Simulations were performed on networks extracted from real street maps. The obtained results show that \textit{GeoRank} finds shorter routes than RPL in high link density conditions and than GOAFR in low link density conditions. Thus, \textit{GeoRank} shows to be adaptive to variable link densities found in large-scale networks. Further, \textit{GeoRank} avoids the use of DAO (Destination Advertisement Object) control messages required in RPL, while being more scalable in terms of memory usage than storing-mode RPL.
+In this paper, we propose \sout{a routing protocol for a smart street lighting system based on IPv6-enabled wireless sensor network} \rev{\textit{GeoRank}, a geographic routing approach for the IPv6-enabled large-scale  wireless networks}. We discuss the main drawbacks of the RPL (IPv6 Routing Protocol for
+Low-Power and Lossy Networks) for P2P (point-to-point) communication in large-scale 6LoWPAN networks. Then, we address such drawbacks by proposing a new routing \sout{algorithm} \rev{protocol}, named \textit{GeoRank}, which integrates RPL protocol with the position-based routing protocol GOAFR (Greedy Other Adaptive Face Routing). Simulations were performed on networks extracted from real street maps. The obtained results show that \textit{GeoRank} finds shorter routes than RPL in high link density conditions and than GOAFR in low link density conditions. Thus, \textit{GeoRank} shows to be adaptive to variable link densities found in large-scale networks. Further, \textit{GeoRank} avoids the use of DAO (Destination Advertisement Object) control messages required in RPL, while being more scalable in terms of memory usage than storing-mode RPL.
 \end{abstract}
 
 
@@ -185,7 +187,7 @@ Low-Power and Lossy Networks) for P2P (point-to-point) communication in large-sc
 
 \begin{keyword}
 %% keywords here, in the form: keyword \sep keyword
-Wireless Sensor and Actuator Networks  \sep Smart Street Lighting \sep Internet of Things \sep Smart Green Cities \sep Routing \sep IPv6 \sep 6LoWPAN 
+Wireless Sensor and Actuator Networks  \sep Internet of Things \sep Smart Green Cities \sep Routing \sep IPv6 \sep 6LoWPAN \sep Smart Street Lighting
 
 %% MSC codes here, in the form: \MSC code \sep code
 %% or \MSC[2008] code \sep code (2000 is the default)
@@ -202,7 +204,8 @@ Wireless Sensor and Actuator Networks  \sep Smart Street Lighting \sep Internet 
 
 With  the increase in world population and the growing urbanization worldwide, cities will need to evolve towards an intelligent infrastructure in order to provide to its citizens a better living environment. This will be achieved through the use of information and communication technology (ICT), with the goal to provide public services that are more accessible and more efficient. This vision is embodied in the ``smart city'' concept \citep{Smart_City_2011, Smart_City_2013}. 
 
-According to several researchers, to enable the smart city it will be required an urban ``Internet of Things (IoT)'' infrastructure, where sensors and actuators distributed across the city will be interconnected by a pervasive network \citep{Smart_City_IOT_2013,Smart_City_IOT_2014,Smart_City_IOT_2014b,Smart_City_IOT_2014c,Smart_City_IOT_2014d,Smart_City_IOT_2014e}. 
+According to several researchers, to enable the smart city it will be required an urban ``Internet of Things (IoT)'' infrastructure, where sensors and actuators distributed across the city will be interconnected by a pervasive network \citep{Smart_City_IOT_2013,Smart_City_IOT_2014,Smart_City_IOT_2014b,Smart_City_IOT_2014c,Smart_City_IOT_2014d,
+Smart_City_IOT_2014e}. 
 This urban ``IoT'' will enable a myriad of services and applications for the smart city, such as structural health monitoring, waste management, air quality monitoring, noise monitoring, traffic congestion avoidance, city energy consumption tracking, smart parking, smart lighting, charging infrastructure for electrical vehicles, etc \citep{Smart_City_2011, Smart_City_2013}.
 
 One of such applications is smart street lighting. The street lighting system (SLS) is one of the most important assets for a city, due to its role as a public service for the citizens and also due its pervasiveness. However, SLS is very costly to operate, with a share of about 40\% of the total amount of electricity spent in a city \citep{Smart_City_Smart_Light_2013}. Therefore, making it more energy efficient and less costly for maintaining is very important for the cities.
@@ -215,9 +218,9 @@ The main drawbacks of the PLC technology are noisy medium, high signal attenuati
 
 Recently, the 6LoWPAN protocol has been standardized by the IETF (Internet Engineering Task Force) as an adaptation layer to enable IEEE 802.15.4-based low power and lossy networks (LLNs), such as wireless sensor networks, to reuse the existing IPv6 protocol for the networking layer \citep{RFC4944}. Also, the IETF has standardized RPL as the routing protocol for IP-based LLNs \citep{RFC6550}. According to the literature, the main reasons to use IPv6 protocol for the LLNs include the connectivity through the internet to enable the IoT, the 128-bit addressing space that enables uniquely addressable devices (``things''), the network layered architecture and the interoperability \citep{IPv6_LLN_2010, IPv6_LLN_2011, Smart_City_IOT_2014b}.
 
-However, RPL has some drawbacks, as higher amount of control messages than data messages, mainly for constructing routes from the sink to the nodes (downward routes in RPL vocabulary) \citep{Heurtefeux_RPL_2013,P2P_analysis_2010,P2P-RPL_2011}. In a street light system, nodes are static and a routing protocol could benefit of this condition to find routes with less control overhead than RPL. The routing algorithms that use position to find routes in a communication network are known as geographic routing algorithms and a large body of literature has been devoted to the research on those algorithms in last few decades \citep{Karp_GPSR_2000, Position_Based_Routing_Ad_Hoc_2001, On_Optimal_Geographic_Routing_2007, Denardin2011}.
+However, RPL has some drawbacks, as higher amount of control messages than data messages, mainly for constructing routes from the sink to the nodes (downward routes in RPL vocabulary) \citep{Heurtefeux_RPL_2013,P2P_analysis_2010,P2P-RPL_2011}. \sout{In a street light system,} \rev{In a network where} nodes are static, \sout{and} a routing protocol could benefit of this condition to find routes with less control overhead than RPL. The routing algorithms that use position to find routes in a communication network are known as geographic routing algorithms and a large body of literature has been devoted to the research on those algorithms in last few decades \citep{Karp_GPSR_2000, Position_Based_Routing_Ad_Hoc_2001, On_Optimal_Geographic_Routing_2007, Denardin2011}.
 
-Our main contribution in this paper is to propose a modification into RPL protocol, in order to better support P2P communication. The proposed technique intend to integrate a geographic routing algorithm in the RPL protocol to reduce the amount of control message required for P2P communication. We further propose that such a routing protocol can be used in a smart street lighting system based on IPv6-enabled wireless sensor network for supporting diverse applications in an urban IoT. This paper is organized as follows: Section \ref{secRequirements} addresses the requirements of a wireless sensor network to implement an smart street lighting network. Also, we argue about the benefits of creating a network with such coverage for other public services. Section \ref{sec6LoWPAN} presents an overview of the 6LoWPAN protocol, describing succinctly its operating modes, routing strategies and main drawbacks. In section \ref{secGeographicRouting} we address the geographic routing technique, highlighting its pros and cons. In section \ref{secGeoRank}, the \textit{GeoRank} algorithm is presented, depicting its working principle. We evaluate, by simulation, the performance of the proposed algorithm in Section \ref{secSimulation}. Finally, we conclude this paper in Section \ref{secConclusion}.
+Our main contribution in this paper is to propose a modification into RPL protocol, in order to better support P2P communication. The proposed technique intend to integrate a geographic routing algorithm in the RPL protocol to reduce the amount of control message required for P2P communication. \sout{We further propose that} Such a routing protocol can be used \rev{, for example,} in a smart street lighting system \sout{based on IPv6-enabled} wireless \sout{sensor} network for supporting diverse applications in an urban IoT. This paper is organized as follows: Section \ref{secRequirements} addresses the requirements of a wireless sensor network to implement an smart street lighting network. Also, we argue about the benefits of creating a network with such coverage for other public services. Section \ref{sec6LoWPAN} presents an overview of the 6LoWPAN protocol, describing succinctly its operating modes, routing strategies and main drawbacks. In section \ref{secGeographicRouting} we address the geographic routing technique, highlighting its pros and cons. In section \ref{secGeoRank}, the \textit{GeoRank} algorithm is presented, depicting its working principle. We evaluate, by simulation, the performance of the proposed algorithm in Section \ref{secSimulation}. Finally, we conclude this paper in Section \ref{secConclusion}.
 
 
 \section{Requirements and benefits of a smart street lighting system}
@@ -308,7 +311,7 @@ Due to these not negligible drawbacks, it is wise to develop some work around ab
 
 Geographic routing mainly relies on a simple greedy geographic forwarding strategy, where each router node must select a locally optimal neighbor with a positive progress towards the data packet destination \citep{survey_2007}. Such approach is largely known by its low overhead and scalability, which can easily be observed due to its low control message system, i.e., a router in a geographic routing strategy only needs to know its direct neighborhood.
 
-In the geographic routing approach, the destination address is the position of the destination node, instead of a topological address. To discover a node position in the network, each router node must implement a location service. This service is responsible to determine its own position and the destination position. A node position could be obtained by pre-configuration if the node is stationary, or by a GPS receiver. As network nodes are static in the street lighting case, the location information of the nodes can be stored during the installation process. 
+In the geographic routing approach, the destination address is the position of the destination node, instead of a topological address. To discover a node position in the network, each router node must implement a location service. This service is responsible to determine its own position and the destination position. A node position could be obtained by pre-configuration if the node is stationary, or by a GPS receiver. \sout{As} \rev{If} network nodes are static \sout{in the street lighting case}, the location information of the nodes can be stored during the installation process. 
 
 When considering realistic outdoor scenarios, such as a city, any block could turn into a void. A void occurs when all neighbors of a router node are farther away from the destination node than the router itself. In this case, the router fails to locate a next hop node through greedy strategy. If only the greedy-forwarding algorithm is used, packets have to be discarded when a void is reached. However, a void does not necessarily mean that there is no route to the destination, because if the network is connected, a valid topological path exists by circumventing the void. 
 
@@ -425,13 +428,14 @@ It is noted that the low link density is the density obtained when the radio ran
 
 It is remarkable that the \textit{GeoRank} is able to reduce the length of the route found by geographic routing in lower link densities. It does so by avoiding to circumvent the void with face routing whenever it is possible to use the DODAG to perform this deviation. Thus, \textit{GeoRank} achieves a significant reduction of the path length when the number of voids is large (i.e. when the radio range is small) compared to geographic routing alone. On the other hand, when the radio range is increased, geographic routing performs better than RPL, and \textit{GeoRank} does not impact negatively its performance. Therefore, \textit{GeoRank} works as a selective method, that is able leverage the best of RPL and geographic routing, and being adaptive to the network density.
 
-In a large scale network, as a smart street lighting, there may be some places where the link density is very low due to obstacles, such as in dense urban environments, while some places may have high link density due to less and lower buildings. Therefore, while in either case RPL or geographic routing alone would not be the best option, the remarkable adaptability of \textit{GeoRank} makes it the well suited to such variable link density case. Moreover, \textit{GeoRank} is more scalable than storing-mode RPL according to memory usage, as shown in figure \ref{sim_results2}.
+In a large scale network \sout{, as a smart street lighting}, there may be some places where the link density is very low due to obstacles, such as in dense urban environments, while some places may have high link density due to less and lower buildings. Therefore, while in either case RPL or geographic routing alone would not be the best option, the remarkable adaptability of \textit{GeoRank} makes it the well suited to such variable link density case. Moreover, \textit{GeoRank} is more scalable than storing-mode RPL according to memory usage, as shown in figure \ref{sim_results2}.
 
 \section{Conclusions}
 \label{secConclusion}
 
-In this paper, a smart street lighting system using a 6LoWPAN-based wireless sensor network was proposed. Moreover, in order to improve the performance and scalability of the network, it was proposed a new routing protocol, named \textit{GeoRank}, which integrates the standardized RPL routing protocol for 6LoWPAN networks with the state-of-the-art GOAFR position-based routing algorithm. The results obtained from simulations on networks extracted from real street maps have shown that \textit{GeoRank} has an improved routing performance over GOAFR in low link density condition, while outperforming the RPL protocol in high link density condition by finding mostly optimal routes. Therefore, \textit{GeoRank} is an adaptive approach for scenarios with variable link densities. Further, it is remarked that \textit{GeoRank} is not required to use the RPL DAO control messages, because it uses the positions of the nodes for the P2P routing, and is more scalable than storing-mode RPL according to memory usage. 
-
+In this paper, it was proposed a new routing protocol, named \textit{GeoRank}, which integrates the standardized RPL routing protocol for 6LoWPAN networks with the state-of-the-art GOAFR position-based routing algorithm. 
+Such a protocol is targeted to be used \sout{in a smart street lighting system based on} \rev{in a large-scale} IPv6-enabled wireless sensor network for supporting diverse applications in an urban IoT. The results obtained from simulations on networks extracted from real street maps have shown that \textit{GeoRank} has an improved routing performance over GOAFR in low link density condition, while outperforming the RPL protocol in high link density condition by finding mostly optimal routes. Therefore, \textit{GeoRank} is an adaptive approach for scenarios with variable link densities. Further, it is remarked that \textit{GeoRank} is not required to use the RPL DAO control messages, because it uses the positions of the nodes for the P2P routing, and is more scalable than storing-mode RPL according to memory usage. 
+	
 %\section{Acknowledgments}
 %\label{secAck}
 %
@@ -519,6 +523,8 @@ In this paper, a smart street lighting system using a 6LoWPAN-based wireless sen
 % \bibitem[ ()]{}
 
 % \end{thebibliography}
+
+%Carlos Henrique Barriquello is an Adjunct Professor in the Electronics and Computing Department at the Federal University of Santa Maria, Brazil, since 2012. He received the B.Sc., M.Sc. and Ph.D. degrees in electrical engineering from Federal University of Santa Maria in 2007, 2009 and 2012, respectively. His research interests include embedded systems and wireless sensor/actuator networks.
 
 \end{document}
 
