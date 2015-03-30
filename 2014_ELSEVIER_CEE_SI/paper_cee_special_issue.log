@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  30 MAR 2015 11:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  30 MAR 2015 11:55
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -904,15 +904,12 @@ Package epstopdf Info: Source file: <RPL_DIO.eps>
 (epstopdf)                    date: 2014-12-11 15:15:52
 (epstopdf)                    size: 189919 bytes
 (epstopdf)             Output file: <RPL_DIO-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:31
+(epstopdf)                    size: 7811 bytes
 (epstopdf)             Command: <epstopdf --outfile=RPL_DIO-eps-converted-to.pd
 f RPL_DIO.eps>
 (epstopdf)             \includegraphics on input line 259.
-runsystem(epstopdf --outfile=RPL_DIO-eps-converted-to.pdf RPL_DIO.eps)...execut
-ed (allowed).
-
-Package epstopdf Info: Result file: <RPL_DIO-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 11:36:31
-(epstopdf)                    size: 7811 bytes.
+Package epstopdf Info: Output file is already uptodate.
  <RPL_DIO-eps-converted-to.pdf, id=44, 290.08376pt x 223.83624pt>
 File: RPL_DIO-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -925,15 +922,12 @@ Package epstopdf Info: Source file: <RPL_DAO.eps>
 (epstopdf)                    date: 2014-07-30 10:06:42
 (epstopdf)                    size: 196327 bytes
 (epstopdf)             Output file: <RPL_DAO-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:32
+(epstopdf)                    size: 7495 bytes
 (epstopdf)             Command: <epstopdf --outfile=RPL_DAO-eps-converted-to.pd
 f RPL_DAO.eps>
 (epstopdf)             \includegraphics on input line 278.
-runsystem(epstopdf --outfile=RPL_DAO-eps-converted-to.pdf RPL_DAO.eps)...execut
-ed (allowed).
-
-Package epstopdf Info: Result file: <RPL_DAO-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 11:36:32
-(epstopdf)                    size: 7495 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <RPL_DAO-eps-converted-to.pdf, id=57, 442.65375pt x 158.5925pt>
 File: RPL_DAO-eps-converted-to.pdf Graphic file (type pdf)
@@ -951,15 +945,12 @@ Package epstopdf Info: Source file: <sample_scenarios.eps>
 (epstopdf)                    date: 2014-08-11 15:51:39
 (epstopdf)                    size: 1552179 bytes
 (epstopdf)             Output file: <sample_scenarios-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:34
+(epstopdf)                    size: 158004 bytes
 (epstopdf)             Command: <epstopdf --outfile=sample_scenarios-eps-conver
 ted-to.pdf sample_scenarios.eps>
 (epstopdf)             \includegraphics on input line 380.
-runsystem(epstopdf --outfile=sample_scenarios-eps-converted-to.pdf sample_scena
-rios.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <sample_scenarios-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 11:36:34
-(epstopdf)                    size: 158004 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <sample_scenarios-eps-converted-to.pdf, id=94, 1513.655pt x 282.05376pt>
 File: sample_scenarios-eps-converted-to.pdf Graphic file (type pdf)
@@ -972,15 +963,12 @@ Package epstopdf Info: Source file: <hops_range.eps>
 (epstopdf)                    date: 2014-11-25 07:54:24
 (epstopdf)                    size: 13712 bytes
 (epstopdf)             Output file: <hops_range-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:35
+(epstopdf)                    size: 4926 bytes
 (epstopdf)             Command: <epstopdf --outfile=hops_range-eps-converted-to
 .pdf hops_range.eps>
 (epstopdf)             \includegraphics on input line 392.
-runsystem(epstopdf --outfile=hops_range-eps-converted-to.pdf hops_range.eps)...
-executed (allowed).
-
-Package epstopdf Info: Result file: <hops_range-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 11:36:35
-(epstopdf)                    size: 4926 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <hops_range-eps-converted-to.pdf, id=95, 420.57124pt x 316.18124pt>
 File: hops_range-eps-converted-to.pdf Graphic file (type pdf)
@@ -996,15 +984,12 @@ Package epstopdf Info: Source file: <mem_usage_range.eps>
 (epstopdf)                    date: 2014-12-19 15:03:15
 (epstopdf)                    size: 13153 bytes
 (epstopdf)             Output file: <mem_usage_range-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:36
+(epstopdf)                    size: 4712 bytes
 (epstopdf)             Command: <epstopdf --outfile=mem_usage_range-eps-convert
 ed-to.pdf mem_usage_range.eps>
 (epstopdf)             \includegraphics on input line 405.
-runsystem(epstopdf --outfile=mem_usage_range-eps-converted-to.pdf mem_usage_ran
-ge.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <mem_usage_range-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 11:36:36
-(epstopdf)                    size: 4712 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <mem_usage_range-eps-converted-to.pdf, id=108, 420.57124pt x 316.18124pt>
 File: mem_usage_range-eps-converted-to.pdf Graphic file (type pdf)
