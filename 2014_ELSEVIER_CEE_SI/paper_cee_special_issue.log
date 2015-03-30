@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  30 MAR 2015 11:08
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  30 MAR 2015 11:36
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -839,18 +839,18 @@ Package: ulem 2012/05/18
 )
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
 
 ("C:\Users\Universidade Federal\AppData\Roaming\MiKTeX\2.9\tex\context\base\sup
 p-pdf.mkii"
@@ -875,11 +875,11 @@ Package caption Info: End \AtBeginDocument code.
  tick labels; missing features). Consider writing \pgfplotsset{compat=1.7} into
  your preamble.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 187.
+LaTeX Font Info:    Try loading font information for U+msa on input line 186.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 187.
+LaTeX Font Info:    Try loading font information for U+msb on input line 186.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -891,121 +891,130 @@ p}] [2] [3]
 [4] [5]
 Missing character: There is no ã in font cmr12!
  [6] [7] [8]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 251.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 250.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 251.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 250.
 
 [9]
-Package epstopdf Info: Source file: <figures/RPL_DIO.eps>
+Package epstopdf Info: Source file: <RPL_DIO.eps>
 (epstopdf)                    date: 2014-12-11 15:15:52
 (epstopdf)                    size: 189919 bytes
-(epstopdf)             Output file: <figures/RPL_DIO-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-11 15:26:00
-(epstopdf)                    size: 7811 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/RPL_DIO-eps-convert
-ed-to.pdf figures/RPL_DIO.eps>
-(epstopdf)             \includegraphics on input line 260.
-Package epstopdf Info: Output file is already uptodate.
- <figures/RPL_DIO-eps-converted-to.pdf, id=44, 290.08376pt x 223.83624pt>
-File: figures/RPL_DIO-eps-converted-to.pdf Graphic file (type pdf)
+(epstopdf)             Output file: <RPL_DIO-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=RPL_DIO-eps-converted-to.pd
+f RPL_DIO.eps>
+(epstopdf)             \includegraphics on input line 259.
+runsystem(epstopdf --outfile=RPL_DIO-eps-converted-to.pdf RPL_DIO.eps)...execut
+ed (allowed).
 
-<use figures/RPL_DIO-eps-converted-to.pdf>
-Package pdftex.def Info: figures/RPL_DIO-eps-converted-to.pdf used on input lin
-e 260.
+Package epstopdf Info: Result file: <RPL_DIO-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:31
+(epstopdf)                    size: 7811 bytes.
+ <RPL_DIO-eps-converted-to.pdf, id=44, 290.08376pt x 223.83624pt>
+File: RPL_DIO-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RPL_DIO-eps-converted-to.pdf>
+Package pdftex.def Info: RPL_DIO-eps-converted-to.pdf used on input line 259.
 (pdftex.def)             Requested size: 312.00119pt x 240.76271pt.
- [10] [11 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/RPL_DIO-e
-ps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figures/RPL_DAO.eps>
+ [10] [11 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/RPL_DIO-eps-conve
+rted-to.pdf>]
+Package epstopdf Info: Source file: <RPL_DAO.eps>
 (epstopdf)                    date: 2014-07-30 10:06:42
 (epstopdf)                    size: 196327 bytes
-(epstopdf)             Output file: <figures/RPL_DAO-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-07 15:19:26
-(epstopdf)                    size: 7495 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/RPL_DAO-eps-convert
-ed-to.pdf figures/RPL_DAO.eps>
-(epstopdf)             \includegraphics on input line 279.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             Output file: <RPL_DAO-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=RPL_DAO-eps-converted-to.pd
+f RPL_DAO.eps>
+(epstopdf)             \includegraphics on input line 278.
+runsystem(epstopdf --outfile=RPL_DAO-eps-converted-to.pdf RPL_DAO.eps)...execut
+ed (allowed).
 
-<figures/RPL_DAO-eps-converted-to.pdf, id=57, 442.65375pt x 158.5925pt>
-File: figures/RPL_DAO-eps-converted-to.pdf Graphic file (type pdf)
+Package epstopdf Info: Result file: <RPL_DAO-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:32
+(epstopdf)                    size: 7495 bytes.
 
-<use figures/RPL_DAO-eps-converted-to.pdf>
-Package pdftex.def Info: figures/RPL_DAO-eps-converted-to.pdf used on input lin
-e 279.
+<RPL_DAO-eps-converted-to.pdf, id=57, 442.65375pt x 158.5925pt>
+File: RPL_DAO-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RPL_DAO-eps-converted-to.pdf>
+Package pdftex.def Info: RPL_DAO-eps-converted-to.pdf used on input line 278.
 (pdftex.def)             Requested size: 390.0pt x 139.73604pt.
- [12] [13 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/RPL_DAO-e
-ps-converted-to.pdf>] [14] [15]
-[16] [17] [18]
+ [12] [13 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/RPL_DAO-eps-conve
+rted-to.pdf>] [14] [15] [16] [17] [18]
 
-LaTeX Warning: Float too large for page by 17.53955pt on input line 365.
+LaTeX Warning: Float too large for page by 17.53955pt on input line 364.
 
 [19] [20]
-Package epstopdf Info: Source file: <figures/sample_scenarios.eps>
+Package epstopdf Info: Source file: <sample_scenarios.eps>
 (epstopdf)                    date: 2014-08-11 15:51:39
 (epstopdf)                    size: 1552179 bytes
-(epstopdf)             Output file: <figures/sample_scenarios-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2014-08-14 12:45:06
-(epstopdf)                    size: 158004 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/sample_scenarios-ep
-s-converted-to.pdf figures/sample_scenarios.eps>
-(epstopdf)             \includegraphics on input line 381.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             Output file: <sample_scenarios-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=sample_scenarios-eps-conver
+ted-to.pdf sample_scenarios.eps>
+(epstopdf)             \includegraphics on input line 380.
+runsystem(epstopdf --outfile=sample_scenarios-eps-converted-to.pdf sample_scena
+rios.eps)...executed (allowed).
 
-<figures/sample_scenarios-eps-converted-to.pdf, id=94, 1513.655pt x 282.05376pt
->
-File: figures/sample_scenarios-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/sample_scenarios-eps-converted-to.pdf>
-Package pdftex.def Info: figures/sample_scenarios-eps-converted-to.pdf used on 
-input line 381.
+Package epstopdf Info: Result file: <sample_scenarios-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:34
+(epstopdf)                    size: 158004 bytes.
+
+<sample_scenarios-eps-converted-to.pdf, id=94, 1513.655pt x 282.05376pt>
+File: sample_scenarios-eps-converted-to.pdf Graphic file (type pdf)
+
+<use sample_scenarios-eps-converted-to.pdf>
+Package pdftex.def Info: sample_scenarios-eps-converted-to.pdf used on input li
+ne 380.
 (pdftex.def)             Requested size: 390.0pt x 72.66945pt.
-Package epstopdf Info: Source file: <figures/hops_range.eps>
+Package epstopdf Info: Source file: <hops_range.eps>
 (epstopdf)                    date: 2014-11-25 07:54:24
 (epstopdf)                    size: 13712 bytes
-(epstopdf)             Output file: <figures/hops_range-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-25 09:00:48
-(epstopdf)                    size: 4926 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/hops_range-eps-conv
-erted-to.pdf figures/hops_range.eps>
-(epstopdf)             \includegraphics on input line 393.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             Output file: <hops_range-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=hops_range-eps-converted-to
+.pdf hops_range.eps>
+(epstopdf)             \includegraphics on input line 392.
+runsystem(epstopdf --outfile=hops_range-eps-converted-to.pdf hops_range.eps)...
+executed (allowed).
 
-<figures/hops_range-eps-converted-to.pdf, id=95, 420.57124pt x 316.18124pt>
-File: figures/hops_range-eps-converted-to.pdf Graphic file (type pdf)
+Package epstopdf Info: Result file: <hops_range-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:35
+(epstopdf)                    size: 4926 bytes.
 
-<use figures/hops_range-eps-converted-to.pdf>
-Package pdftex.def Info: figures/hops_range-eps-converted-to.pdf used on input 
-line 393.
+<hops_range-eps-converted-to.pdf, id=95, 420.57124pt x 316.18124pt>
+File: hops_range-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hops_range-eps-converted-to.pdf>
+Package pdftex.def Info: hops_range-eps-converted-to.pdf used on input line 392
+.
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
- [21] [22 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/sample_sc
-enarios-eps-converted-to.pdf> <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_
-SI/figures/hops_range-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figures/mem_usage_range.eps>
+ [21] [22 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/sample_scenarios-
+eps-converted-to.pdf> <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/hops_
+range-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <mem_usage_range.eps>
 (epstopdf)                    date: 2014-12-19 15:03:15
 (epstopdf)                    size: 13153 bytes
-(epstopdf)             Output file: <figures/mem_usage_range-eps-converted-to.p
-df>
-(epstopdf)                    date: 2014-12-19 15:04:20
-(epstopdf)                    size: 4712 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/mem_usage_range-eps
--converted-to.pdf figures/mem_usage_range.eps>
-(epstopdf)             \includegraphics on input line 406.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             Output file: <mem_usage_range-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=mem_usage_range-eps-convert
+ed-to.pdf mem_usage_range.eps>
+(epstopdf)             \includegraphics on input line 405.
+runsystem(epstopdf --outfile=mem_usage_range-eps-converted-to.pdf mem_usage_ran
+ge.eps)...executed (allowed).
 
-<figures/mem_usage_range-eps-converted-to.pdf, id=108, 420.57124pt x 316.18124p
-t>
-File: figures/mem_usage_range-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/mem_usage_range-eps-converted-to.pdf>
-Package pdftex.def Info: figures/mem_usage_range-eps-converted-to.pdf used on i
-nput line 406.
+Package epstopdf Info: Result file: <mem_usage_range-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-30 11:36:36
+(epstopdf)                    size: 4712 bytes.
+
+<mem_usage_range-eps-converted-to.pdf, id=108, 420.57124pt x 316.18124pt>
+File: mem_usage_range-eps-converted-to.pdf Graphic file (type pdf)
+
+<use mem_usage_range-eps-converted-to.pdf>
+Package pdftex.def Info: mem_usage_range-eps-converted-to.pdf used on input lin
+e 405.
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
- [23 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/figures/mem_usage_rang
-e-eps-converted-to.pdf>]
-[24]
+ [23 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/mem_usage_range-eps-co
+nverted-to.pdf>] [24]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.bbl
 [25]
 Missing character: There is no ° in font cmr12!
@@ -1015,12 +1024,12 @@ Missing character: There is no ã in font cmr12!
 Missing character: There is no ã in font cmr12!
 Missing character: There is no ã in font cmr12!
  [30] [31] [32]) [33]
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--520
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
@@ -1028,8 +1037,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--520
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 21864 strings out of 494045
- 517605 string characters out of 3148341
+ 21863 strings out of 494045
+ 517437 string characters out of 3148341
  631694 words of memory out of 3000000
  24662 multiletter control sequences out of 15000+200000
  14284 words of font info for 55 fonts, out of 3000000 for 9000
@@ -1046,7 +1055,7 @@ e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on paper_cee_special_issue.pdf (34 pages, 415194 bytes).
+Output written on paper_cee_special_issue.pdf (34 pages, 415154 bytes).
 PDF statistics:
  188 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
