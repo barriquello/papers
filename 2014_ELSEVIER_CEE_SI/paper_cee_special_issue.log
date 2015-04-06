@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  6 APR 2015 15:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  6 APR 2015 18:01
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -896,8 +896,6 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 236.
-
-[9]
 Package epstopdf Info: Source file: <RPL_DIO.eps>
 (epstopdf)                    date: 2014-12-11 15:15:52
 (epstopdf)                    size: 189919 bytes
@@ -908,14 +906,15 @@ Package epstopdf Info: Source file: <RPL_DIO.eps>
 f RPL_DIO.eps>
 (epstopdf)             \includegraphics on input line 245.
 Package epstopdf Info: Output file is already uptodate.
- <RPL_DIO-eps-converted-to.pdf, id=45, 290.08376pt x 223.83624pt>
+
+<RPL_DIO-eps-converted-to.pdf, id=40, 290.08376pt x 223.83624pt>
 File: RPL_DIO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use RPL_DIO-eps-converted-to.pdf>
 Package pdftex.def Info: RPL_DIO-eps-converted-to.pdf used on input line 245.
 (pdftex.def)             Requested size: 312.00119pt x 240.76271pt.
- [10 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/RPL_DIO-eps-converted-
-to.pdf>] [11]
+ [9] [10 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/RPL_DIO-eps-conver
+ted-to.pdf>] [11]
 Package epstopdf Info: Source file: <RPL_DAO.eps>
 (epstopdf)                    date: 2014-07-30 10:06:42
 (epstopdf)                    size: 196327 bytes
@@ -933,8 +932,8 @@ File: RPL_DAO-eps-converted-to.pdf Graphic file (type pdf)
 <use RPL_DAO-eps-converted-to.pdf>
 Package pdftex.def Info: RPL_DAO-eps-converted-to.pdf used on input line 264.
 (pdftex.def)             Requested size: 390.0pt x 139.73604pt.
- [12] [13 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/RPL_DAO-eps-conve
-rted-to.pdf>] [14] [15] [16] [17] [18]
+ [12 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/RPL_DAO-eps-converted-
+to.pdf>] [13] [14] [15] [16] [17] [18]
 
 LaTeX Warning: Float too large for page by 17.53955pt on input line 350.
 
@@ -975,9 +974,6 @@ File: hops_range-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: hops_range-eps-converted-to.pdf used on input line 378
 .
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
- [21 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/sample_scenarios-eps-c
-onverted-to.pdf>] [22 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/hops_
-range-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <mem_usage_range.eps>
 (epstopdf)                    date: 2014-12-19 15:03:15
 (epstopdf)                    size: 13153 bytes
@@ -989,21 +985,59 @@ ed-to.pdf mem_usage_range.eps>
 (epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
 
-<mem_usage_range-eps-converted-to.pdf, id=109, 420.57124pt x 316.18124pt>
+<mem_usage_range-eps-converted-to.pdf, id=97, 420.57124pt x 316.18124pt>
 File: mem_usage_range-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mem_usage_range-eps-converted-to.pdf>
 Package pdftex.def Info: mem_usage_range-eps-converted-to.pdf used on input lin
 e 391.
 (pdftex.def)             Requested size: 390.0pt x 293.20122pt.
- [23 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/mem_usage_range-eps-co
-nverted-to.pdf>] [24]
+ [21 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/sample_scenarios-eps-c
+onverted-to.pdf>] [22 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_CEE_SI/hops_
+range-eps-converted-to.pdf>] [23 <C:/DADOS_LOCAIS/GITHUB/papers/2014_ELSEVIER_C
+EE_SI/mem_usage_range-eps-converted-to.pdf>] [24]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.bbl
-[25]
-Missing character: There is no ° in font cmr12!
- [26]
+[25] [26] [27] [28]
+Underfull \hbox (badness 2057) in paragraph at lines 150--155
+[]\OT1/cmr/m/n/12 G. Denardin, C. Bar-riquello, R. Pinto, M. Silva, A. Cam-pos,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--163
+[]\OT1/cmr/m/n/12 R. Pan-toni, D. Bran-dao, A confirmation-based geo-cast
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--163
+\OT1/cmr/m/n/12 rout-ing al-go-rithm for street light-ing sys-tems, Com-put-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--163
+\OT1/cmr/m/n/12 ers & Elec-tri-cal En-gi-neer-ing 37 (6) (2011) 1147 -- 1159.
+ []
+
 Missing character: There is no ã in font cmr12!
- [27] [28] [29]) [30]
+[29]
+Missing character: There is no ° in font cmr12!
+
+Overfull \hbox (50.58449pt too wide) in paragraph at lines 210--215
+\OT1/cmr/m/n/12 URL \OT1/cmtt/m/n/12 http://tools.ietf.org/html/draft-clausen-l
+ln-rpl-experiences-05 
+ []
+
+[30]
+Underfull \hbox (badness 5175) in paragraph at lines 254--258
+[]\OT1/cmr/m/n/12 M. Hak-lay, P. We-ber, Open-streetmap: User-generated street
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--258
+\OT1/cmr/m/n/12 maps, Per-va-sive Com-put-ing, IEEE 7 (4) (2008) 12--18.
+ []
+
+) [31]
 Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
  []
@@ -1013,36 +1047,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--503
 
  []
 
-[31]
+[32]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
  21848 strings out of 494045
- 517111 string characters out of 3148341
- 629834 words of memory out of 3000000
- 24647 multiletter control sequences out of 15000+200000
- 14284 words of font info for 55 fonts, out of 3000000 for 9000
+ 517116 string characters out of 3148341
+ 629263 words of memory out of 3000000
+ 24646 multiletter control sequences out of 15000+200000
+ 14453 words of font info for 56 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,8n,74p,1682b,785s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on paper_cee_special_issue.pdf (31 pages, 417315 bytes).
+ 63i,8n,74p,1681b,785s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on paper_cee_special_issue.pdf (32 pages, 425467 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

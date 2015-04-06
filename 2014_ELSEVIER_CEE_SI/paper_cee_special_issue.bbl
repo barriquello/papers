@@ -1,336 +1,259 @@
-\begin{thebibliography}{38}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\eprint}[2][]{\url{#2}}
-\providecommand{\bibinfo}[2]{#2}
-\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
-%Type = Article
-\bibitem[{Al-Karaki and Kamal(2004)}]{WSN_routing}
-\bibinfo{author}{Al-Karaki, J.}, \bibinfo{author}{Kamal, A.},
-  \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{Routing techniques in wireless sensor networks: a
-  survey}.
-\newblock \bibinfo{journal}{Wireless Communications, IEEE}
-  \bibinfo{volume}{11}, \bibinfo{pages}{6--28}.
-%Type = Inproceedings
-\bibitem[{Baccelli et~al.(2011)Baccelli, Philipp and Goyal}]{P2P-RPL_2011}
-\bibinfo{author}{Baccelli, E.}, \bibinfo{author}{Philipp, M.},
-  \bibinfo{author}{Goyal, M.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{The p2p-rpl routing protocol for ipv6 sensor
-  networks: Testbed experiments}, in: \bibinfo{booktitle}{Software,
-  Telecommunications and Computer Networks, 2011 19th Int. Conf.}, pp.
-  \bibinfo{pages}{1 --6}.
-%Type = Article
-\bibitem[{Bontu et~al.(2014)Bontu, Periyalwar and Pecen}]{celullar_iot}
-\bibinfo{author}{Bontu, C.}, \bibinfo{author}{Periyalwar, S.},
-  \bibinfo{author}{Pecen, M.}, \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{Wireless wide-area networks for internet of things:
-  An air interface protocol for iot and a simultaneous access channel for
-  uplink iot communication}.
-\newblock \bibinfo{journal}{Vehicular Technology Magazine, IEEE}
-  \bibinfo{volume}{9}, \bibinfo{pages}{54--63}.
-%Type = Inproceedings
-\bibitem[{Castro et~al.(2013)Castro, Jara and
-  Skarmeta}]{Smart_City_Smart_Light_2013}
-\bibinfo{author}{Castro, M.}, \bibinfo{author}{Jara, A.},
-  \bibinfo{author}{Skarmeta, A.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Smart lighting solutions for smart cities}, in:
-  \bibinfo{booktitle}{Advanced Information Networking and Applications
-  Workshops (WAINA), 2013 27th International Conference on}, pp.
-  \bibinfo{pages}{1374--1379}.
-%Type = Article
-\bibitem[{Chen and Varshney(2007)}]{survey_2007}
-\bibinfo{author}{Chen, D.}, \bibinfo{author}{Varshney, P.},
-  \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{A survey of void handling techniques for geographic
-  routing in wireless networks}.
-\newblock \bibinfo{journal}{Communications Surveys Tutorials, IEEE}
-  \bibinfo{volume}{9}, \bibinfo{pages}{50 --67}.
-%Type = Misc
-\bibitem[{Clausen and Herberg(2011)}]{herberg}
-\bibinfo{author}{Clausen, T.}, \bibinfo{author}{Herberg, U.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{Some considerations on routing in particular and
-  lossy environments}.
-\newblock \bibinfo{howpublished}{Rapport de recherche n° 7540}.
-%Type = Misc
-\bibitem[{Clausen et~al.(2014a)Clausen, de~Verdiere, Yi, Herberg and
-  Igarashi}]{RPL_observations}
-\bibinfo{author}{Clausen, T.}, \bibinfo{author}{de~Verdiere, A.C.},
-  \bibinfo{author}{Yi, J.}, \bibinfo{author}{Herberg, U.},
-  \bibinfo{author}{Igarashi, Y.}, \bibinfo{year}{2014}a.
-\newblock \bibinfo{title}{Observations of rpl: Ipv6 routing protocol for low
-  power and lossy networks}.
-\newblock \bibinfo{howpublished}{Internet-Draft}.
-%Type = Misc
-\bibitem[{Clausen et~al.(2014b)Clausen, de~Verdiere, Yi, Niktash, Igarashi,
-  Satoh, Herberg, Lavenu, Lys and Dean}]{LOADng_2012}
-\bibinfo{author}{Clausen, T.}, \bibinfo{author}{de~Verdiere, A.C.},
-  \bibinfo{author}{Yi, J.}, \bibinfo{author}{Niktash, A.},
-  \bibinfo{author}{Igarashi, Y.}, \bibinfo{author}{Satoh, H.},
-  \bibinfo{author}{Herberg, U.}, \bibinfo{author}{Lavenu, C.},
-  \bibinfo{author}{Lys, T.}, \bibinfo{author}{Dean, J.}, \bibinfo{year}{2014}b.
-\newblock \bibinfo{title}{The lln on-demand ad-hoc distance-vector routing
-  protocol-next generation (loadng)}.
-\newblock \bibinfo{howpublished}{DRAFT}.
-%Type = Misc
-\bibitem[{Conta et~al.(2006)Conta, Deering and Gupta}]{RFC4443}
-\bibinfo{author}{Conta, A.}, \bibinfo{author}{Deering, S.},
-  \bibinfo{author}{Gupta, M.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{Internet control message protocol (icmpv6) for the
-  internet protocol version 6 (ipv6) specification}.
-\newblock \bibinfo{howpublished}{RFC4443}.
-%Type = Inproceedings
-\bibitem[{Dalla~Costa et~al.(2010)Dalla~Costa, Schuch, Michels, Rech, Pinheiro
-  and Costa}]{CRI_2010}
-\bibinfo{author}{Dalla~Costa, M.}, \bibinfo{author}{Schuch, L.},
-  \bibinfo{author}{Michels, L.}, \bibinfo{author}{Rech, C.},
-  \bibinfo{author}{Pinheiro, J.}, \bibinfo{author}{Costa, G.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{Autonomous street lighting system based on solar
-  energy and leds}, in: \bibinfo{booktitle}{Industrial Technology (ICIT), 2010
-  IEEE Int. Conf. on}, pp. \bibinfo{pages}{1143 --1148}.
-%Type = Inproceedings
-\bibitem[{Denardin et~al.(2009)Denardin, Barriquello, Pinto, Silva, Campos and
-  do~Prado}]{Our_IAS_2009}
-\bibinfo{author}{Denardin, G.}, \bibinfo{author}{Barriquello, C.},
-  \bibinfo{author}{Pinto, R.}, \bibinfo{author}{Silva, M.},
-  \bibinfo{author}{Campos, A.}, \bibinfo{author}{do~Prado, R.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{An intelligent system for street lighting control and
-  measurement}, in: \bibinfo{booktitle}{Industry Applications Society Annual
-  Meeting, 2009. IEEE}, pp. \bibinfo{pages}{1 --5}.
-%Type = Article
-\bibitem[{Denardin et~al.(2011)Denardin, Barriquello, Campos and
-  do~Prado}]{Denardin2011}
-\bibinfo{author}{Denardin, G.W.}, \bibinfo{author}{Barriquello, C.H.},
-  \bibinfo{author}{Campos, A.}, \bibinfo{author}{do~Prado, R.N.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{A geographic routing hybrid approach for void
-  resolution in wireless sensor networks}.
-\newblock \bibinfo{journal}{Journal of Systems and Software}
-  \bibinfo{volume}{84}, \bibinfo{pages}{1577 -- 1590}.
-%Type = Article
-\bibitem[{da~Fonseca et~al.(2015)da~Fonseca, Pantoni and
-  Brandão}]{daFonseca_2015}
-\bibinfo{author}{da~Fonseca, C.C.}, \bibinfo{author}{Pantoni, R.P.},
-  \bibinfo{author}{Brandão, D.}, \bibinfo{year}{2015}.
-\newblock \bibinfo{title}{Public street lighting remote operation and
-  supervision system}.
-\newblock \bibinfo{journal}{Computer Standards \& Interfaces}
-  \bibinfo{volume}{38}, \bibinfo{pages}{25 -- 34}.
-%Type = Article
-\bibitem[{Haklay and Weber(2008)}]{OSM}
-\bibinfo{author}{Haklay, M.}, \bibinfo{author}{Weber, P.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{Openstreetmap: User-generated street maps}.
-\newblock \bibinfo{journal}{Pervasive Computing, IEEE} \bibinfo{volume}{7},
-  \bibinfo{pages}{12--18}.
-%Type = Inproceedings
-\bibitem[{Heurtefeux and Menouar(2013)}]{Heurtefeux_RPL_2013}
-\bibinfo{author}{Heurtefeux, K.}, \bibinfo{author}{Menouar, H.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Experimental evaluation of a routing protocol for
-  wireless sensor networks: Rpl under study}, in: \bibinfo{booktitle}{Wireless
-  and Mobile Networking Conference (WMNC), 2013 6th Joint IFIP}, pp.
-  \bibinfo{pages}{1--4}.
-%Type = Article
-\bibitem[{Hui and Culler(2010)}]{IPv6_LLN_2010}
-\bibinfo{author}{Hui, J.}, \bibinfo{author}{Culler, D.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{Ipv6 in low-power wireless networks}.
-\newblock \bibinfo{journal}{Proceedings of the IEEE} \bibinfo{volume}{98},
-  \bibinfo{pages}{1865--1878}.
-%Type = Misc
-\bibitem[{Hui and Thubert(2011)}]{RFC6282}
-\bibinfo{author}{Hui, J.}, \bibinfo{author}{Thubert, P.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{Compression format for ipv6 datagrams over ieee
-  802.15.4-based networks}.
-\newblock \bibinfo{howpublished}{IETF RFC 6282}.
-%Type = Article
-\bibitem[{Jin et~al.(2014)Jin, Gubbi, Marusic and
-  Palaniswami}]{Smart_City_IOT_2014b}
-\bibinfo{author}{Jin, J.}, \bibinfo{author}{Gubbi, J.},
-  \bibinfo{author}{Marusic, S.}, \bibinfo{author}{Palaniswami, M.},
-  \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{An information framework for creating a smart city
-  through internet of things}.
-\newblock \bibinfo{journal}{Internet of Things Journal, IEEE}
-  \bibinfo{volume}{1}, \bibinfo{pages}{112--121}.
-%Type = Inproceedings
-\bibitem[{Jing et~al.(2007)Jing, Shu and Gu}]{WSN_Street_lighting_2007}
-\bibinfo{author}{Jing, C.}, \bibinfo{author}{Shu, D.}, \bibinfo{author}{Gu,
-  D.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{Design of streetlight monitoring and control system
-  based on wireless sensor networks}, in: \bibinfo{booktitle}{Industrial
-  Electronics and Applications, 2007. ICIEA 2007. 2nd IEEE Conference on}, pp.
-  \bibinfo{pages}{57 --62}.
-%Type = Inproceedings
-\bibitem[{Karp and Kung(2000)}]{Karp_GPSR_2000}
-\bibinfo{author}{Karp, B.}, \bibinfo{author}{Kung, H.T.}, \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{Gpsr: Greedy perimeter stateless routing for wireless
-  networks}, in: \bibinfo{booktitle}{Proceedings of the 6th Annual Int. Conf.
-  on Mobile Computing and Networking}, \bibinfo{publisher}{ACM},
-  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{243--254}.
-%Type = Article
-\bibitem[{Kuhn et~al.(2008)Kuhn, Wattenhofer and Zollinger}]{GOAFR_2008}
-\bibinfo{author}{Kuhn, F.}, \bibinfo{author}{Wattenhofer, R.},
-  \bibinfo{author}{Zollinger, A.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{An algorithmic approach to geographic routing in ad
-  hoc and sensor networks}.
-\newblock \bibinfo{journal}{Networking, IEEE/ACM Transactions on}
-  \bibinfo{volume}{16}, \bibinfo{pages}{51--62}.
-%Type = Inproceedings
-\bibitem[{Levis et~al.(2004)Levis, Patel, Culler and Shenker}]{trickle}
-\bibinfo{author}{Levis, P.}, \bibinfo{author}{Patel, N.},
-  \bibinfo{author}{Culler, D.}, \bibinfo{author}{Shenker, S.},
-  \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{Trickle: A self-regulating algorithm for code
-  propagation and maintenance in wireless sensor networks}, in:
-  \bibinfo{booktitle}{In Proc. of the First USENIX/ACM Symp. on Networked
-  Systems Design and Implementation}, pp. \bibinfo{pages}{15--28}.
-%Type = Inproceedings
-\bibitem[{Maizonave et~al.(2006)Maizonave, Dos~Reis, Lima, Bombardieri,
-  Chiapetta, Ceccon, Souza, Tonkoski and Dos~Reis}]{PLC_Street_Lighting_2006}
-\bibinfo{author}{Maizonave, G.}, \bibinfo{author}{Dos~Reis, F.},
-  \bibinfo{author}{Lima, J.}, \bibinfo{author}{Bombardieri, A.},
-  \bibinfo{author}{Chiapetta, F.}, \bibinfo{author}{Ceccon, G.},
-  \bibinfo{author}{Souza, R.}, \bibinfo{author}{Tonkoski, J.},
-  \bibinfo{author}{Dos~Reis, R.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{Integrated system for intelligent street lighting},
-  in: \bibinfo{booktitle}{Industrial Electronics, 2006 IEEE Int. Symp. on}, pp.
-  \bibinfo{pages}{721 --726}.
-%Type = Inproceedings
-\bibitem[{Mendalka et~al.(2010)Mendalka, Gadaj, Kulas and
-  Nyka}]{WSN_Street_Lighting_2010_1}
-\bibinfo{author}{Mendalka, M.}, \bibinfo{author}{Gadaj, M.},
-  \bibinfo{author}{Kulas, L.}, \bibinfo{author}{Nyka, K.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{Wsn for intelligent street lighting system}, in:
-  \bibinfo{booktitle}{Information Technology (ICIT), 2010 2nd International
-  Conference on}, pp. \bibinfo{pages}{99 --100}.
-%Type = Misc
-\bibitem[{Montenegro et~al.(2007)Montenegro, Kushalnagar, Hui and
-  Culler}]{RFC4944}
-\bibinfo{author}{Montenegro, G.}, \bibinfo{author}{Kushalnagar, N.},
-  \bibinfo{author}{Hui, J.}, \bibinfo{author}{Culler, D.},
-  \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{Transmission of ipv6 packets over ieee 802.15.4
-  networks}.
-\newblock \bibinfo{howpublished}{IETF RFC 4944}.
-%Type = Inproceedings
-\bibitem[{Mulligan(2007)}]{Mulligan_6LoWPAN_2007}
-\bibinfo{author}{Mulligan, G.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{The 6lowpan architecture}, in:
-  \bibinfo{booktitle}{Proc. of the 4th Workshop on Embedded Networked Sensors},
-  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
-  \bibinfo{pages}{78--82}.
-%Type = Article
-\bibitem[{Pantoni and Brandao(2011)}]{Pantoni_2011}
-\bibinfo{author}{Pantoni, R.}, \bibinfo{author}{Brandao, D.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{A confirmation-based geocast routing algorithm for
-  street lighting systems}.
-\newblock \bibinfo{journal}{Computers \& Electrical Engineering}
-  \bibinfo{volume}{37}, \bibinfo{pages}{1147 -- 1159}.
-%Type = Article
-\bibitem[{Papadopoulos et~al.(2013)Papadopoulos, Kaloudas, Chrysochos and
-  Papagiannis}]{PLC_drawbacks}
-\bibinfo{author}{Papadopoulos, T.}, \bibinfo{author}{Kaloudas, C.},
-  \bibinfo{author}{Chrysochos, A.}, \bibinfo{author}{Papagiannis, G.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Application of narrowband power-line communication in
-  medium-voltage smart distribution grids}.
-\newblock \bibinfo{journal}{Power Delivery, IEEE Trans. on}
-  \bibinfo{volume}{28}, \bibinfo{pages}{981--988}.
-%Type = Inproceedings
-\bibitem[{Pellicer et~al.(2013)Pellicer, Santa, Bleda, Maestre, Jara and
-  Gomez~Skarmeta}]{Smart_City_2013}
-\bibinfo{author}{Pellicer, S.}, \bibinfo{author}{Santa, G.},
-  \bibinfo{author}{Bleda, A.}, \bibinfo{author}{Maestre, R.},
-  \bibinfo{author}{Jara, A.}, \bibinfo{author}{Gomez~Skarmeta, A.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{A global perspective of smart cities: A survey}, in:
-  \bibinfo{booktitle}{Innovative Mobile and Internet Services in Ubiquitous
-  Computing (IMIS), 2013 Seventh Int. Conf. on}, pp. \bibinfo{pages}{439--444}.
-%Type = Inproceedings
-\bibitem[{Somov et~al.(2013)Somov, Dupont and Giaffreda}]{SmartCity_ITS_2013}
-\bibinfo{author}{Somov, A.}, \bibinfo{author}{Dupont, C.},
-  \bibinfo{author}{Giaffreda, R.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Supporting smart-city mobility with cognitive
-  internet of things}, in: \bibinfo{booktitle}{Future Network and Mobile Summit
-  (FutureNetworkSummit), 2013}, pp. \bibinfo{pages}{1--10}.
-%Type = Inproceedings
-\bibitem[{Su et~al.(2011)Su, Li and Fu}]{Smart_City_2011}
-\bibinfo{author}{Su, K.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Fu, H.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{Smart city and the applications}, in:
-  \bibinfo{booktitle}{Electronics, Communications and Control (ICECC), 2011
-  Int. Conf. on}, pp. \bibinfo{pages}{1028--1031}.
-%Type = Article
-\bibitem[{Tripathi et~al.(2014)Tripathi, de~Oliveira and
-  Vasseur}]{Tripathi2014}
-\bibinfo{author}{Tripathi, J.}, \bibinfo{author}{de~Oliveira, J.C.},
-  \bibinfo{author}{Vasseur, J.}, \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{Proactive versus reactive routing in low power and
-  lossy networks: Performance analysis and scalability improvements}.
-\newblock \bibinfo{journal}{Ad Hoc Networks} \bibinfo{volume}{23},
-  \bibinfo{pages}{121 -- 144}.
-%Type = Misc
-\bibitem[{Vasseur(2014)}]{RFC7102}
-\bibinfo{author}{Vasseur, J.}, \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{Terms used in routing for low-power and lossy
-  networks}.
-\newblock \bibinfo{howpublished}{RFC7102}.
-%Type = Inproceedings
-\bibitem[{Vucinic et~al.(2013)Vucinic, Tourancheau and Duda}]{Vucinic_2013}
-\bibinfo{author}{Vucinic, M.}, \bibinfo{author}{Tourancheau, B.},
-  \bibinfo{author}{Duda, A.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Performance comparison of the rpl and loadng routing
-  protocols in a home automation scenario}, in: \bibinfo{booktitle}{Wireless
-  Communications and Networking Conference (WCNC), 2013 IEEE}, pp.
-  \bibinfo{pages}{1974--1979}.
-%Type = Misc
-\bibitem[{Winter et~al.(2012)Winter, Thubert, Brandt, Hui, Kelsey, Levis,
-  Pister, Struik, Vasseur and Alexander}]{RFC6550}
-\bibinfo{author}{Winter, T.}, \bibinfo{author}{Thubert, P.},
-  \bibinfo{author}{Brandt, A.}, \bibinfo{author}{Hui, J.},
-  \bibinfo{author}{Kelsey, R.}, \bibinfo{author}{Levis, P.},
-  \bibinfo{author}{Pister, K.}, \bibinfo{author}{Struik, R.},
-  \bibinfo{author}{Vasseur, J.}, \bibinfo{author}{Alexander, R.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{Rpl: Ipv6 routing protocol for low-power and lossy
-  networks}.
-\newblock \bibinfo{howpublished}{RFC 6550 (Proposed Standard)}.
-%Type = Inproceedings
-\bibitem[{Xie et~al.(2010)Xie, Goyal, Hosseini, Martocci, Bashir, Baccelli and
-  Durresi}]{P2P_analysis_2010}
-\bibinfo{author}{Xie, W.}, \bibinfo{author}{Goyal, M.},
-  \bibinfo{author}{Hosseini, H.}, \bibinfo{author}{Martocci, J.},
-  \bibinfo{author}{Bashir, Y.}, \bibinfo{author}{Baccelli, E.},
-  \bibinfo{author}{Durresi, A.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{A performance analysis of point-to-point routing
-  along a directed acyclic graph in low power and lossy networks}, in:
-  \bibinfo{booktitle}{Network-Based Information Systems (NBiS), 2010 13th Int.
-  Conf. on}, pp. \bibinfo{pages}{111 --116}.
-%Type = Inproceedings
-\bibitem[{Yue et~al.(2010)Yue, Changhong, Xianghong and
-  Wei}]{Cellular_Street_Lighting_2010_1}
-\bibinfo{author}{Yue, W.}, \bibinfo{author}{Changhong, S.},
-  \bibinfo{author}{Xianghong, Z.}, \bibinfo{author}{Wei, Y.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{Design of new intelligent street light control
-  system}, in: \bibinfo{booktitle}{Control and Automation (ICCA), 2010 8th IEEE
-  International Conference on}, pp. \bibinfo{pages}{1423 --1427}.
-%Type = Article
-\bibitem[{Zanella et~al.(2014)Zanella, Bui, Castellani, Vangelista and
-  Zorzi}]{Smart_City_IOT_2014}
-\bibinfo{author}{Zanella, A.}, \bibinfo{author}{Bui, N.},
-  \bibinfo{author}{Castellani, A.}, \bibinfo{author}{Vangelista, L.},
-  \bibinfo{author}{Zorzi, M.}, \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{Internet of things for smart cities}.
-\newblock \bibinfo{journal}{Internet of Things Journal, IEEE}
-  \bibinfo{volume}{1}, \bibinfo{pages}{22--32}.
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Smart_City_2011}
+K.~Su, J.~Li, H.~Fu, Smart city and the applications, in: Electronics,
+  Communications and Control (ICECC), 2011 Int. Conf. on, 2011, pp. 1028--1031.
+\newblock \href {http://dx.doi.org/10.1109/ICECC.2011.6066743}
+  {\path{doi:10.1109/ICECC.2011.6066743}}.
+
+\bibitem{Smart_City_2013}
+S.~Pellicer, G.~Santa, A.~Bleda, R.~Maestre, A.~Jara, A.~Gomez~Skarmeta, A
+  global perspective of smart cities: A survey, in: Innovative Mobile and
+  Internet Services in Ubiquitous Computing (IMIS), 2013 Seventh Int. Conf. on,
+  2013, pp. 439--444.
+\newblock \href {http://dx.doi.org/10.1109/IMIS.2013.79}
+  {\path{doi:10.1109/IMIS.2013.79}}.
+
+\bibitem{Smart_City_IOT_2014}
+A.~Zanella, N.~Bui, A.~Castellani, L.~Vangelista, M.~Zorzi, Internet of things
+  for smart cities, Internet of Things Journal, IEEE 1~(1) (2014) 22--32.
+\newblock \href {http://dx.doi.org/10.1109/JIOT.2014.2306328}
+  {\path{doi:10.1109/JIOT.2014.2306328}}.
+
+\bibitem{Smart_City_IOT_2014b}
+J.~Jin, J.~Gubbi, S.~Marusic, M.~Palaniswami, An information framework for
+  creating a smart city through internet of things, Internet of Things Journal,
+  IEEE 1~(2) (2014) 112--121.
+\newblock \href {http://dx.doi.org/10.1109/JIOT.2013.2296516}
+  {\path{doi:10.1109/JIOT.2013.2296516}}.
+
+\bibitem{Smart_City_Smart_Light_2013}
+M.~Castro, A.~Jara, A.~Skarmeta, Smart lighting solutions for smart cities, in:
+  Advanced Information Networking and Applications Workshops (WAINA), 2013 27th
+  International Conference on, 2013, pp. 1374--1379.
+\newblock \href {http://dx.doi.org/10.1109/WAINA.2013.254}
+  {\path{doi:10.1109/WAINA.2013.254}}.
+
+\bibitem{CRI_2010}
+M.~Dalla~Costa, L.~Schuch, L.~Michels, C.~Rech, J.~Pinheiro, G.~Costa,
+  Autonomous street lighting system based on solar energy and leds, in:
+  Industrial Technology (ICIT), 2010 IEEE Int. Conf. on, 2010, pp. 1143 --1148.
+\newblock \href {http://dx.doi.org/10.1109/ICIT.2010.5472590}
+  {\path{doi:10.1109/ICIT.2010.5472590}}.
+
+\bibitem{PLC_Street_Lighting_2006}
+G.~Maizonave, F.~Dos~Reis, J.~Lima, A.~Bombardieri, F.~Chiapetta, G.~Ceccon,
+  R.~Souza, J.~Tonkoski, R.~Dos~Reis, Integrated system for intelligent street
+  lighting, in: Industrial Electronics, 2006 IEEE Int. Symp. on, Vol.~2, 2006,
+  pp. 721 --726.
+\newblock \href {http://dx.doi.org/10.1109/ISIE.2006.295723}
+  {\path{doi:10.1109/ISIE.2006.295723}}.
+
+\bibitem{Cellular_Street_Lighting_2010_1}
+W.~Yue, S.~Changhong, Z.~Xianghong, Y.~Wei, Design of new intelligent street
+  light control system, in: Control and Automation (ICCA), 2010 8th IEEE
+  International Conference on, 2010, pp. 1423 --1427.
+\newblock \href {http://dx.doi.org/10.1109/ICCA.2010.5524348}
+  {\path{doi:10.1109/ICCA.2010.5524348}}.
+
+\bibitem{WSN_Street_Lighting_2010_1}
+M.~Mendalka, M.~Gadaj, L.~Kulas, K.~Nyka, Wsn for intelligent street lighting
+  system, in: Information Technology (ICIT), 2010 2nd International Conference
+  on, 2010, pp. 99 --100.
+
+\bibitem{WSN_Street_lighting_2007}
+C.~Jing, D.~Shu, D.~Gu, Design of streetlight monitoring and control system
+  based on wireless sensor networks, in: Industrial Electronics and
+  Applications, 2007. ICIEA 2007. 2nd IEEE Conference on, 2007, pp. 57 --62.
+\newblock \href {http://dx.doi.org/10.1109/ICIEA.2007.4318369}
+  {\path{doi:10.1109/ICIEA.2007.4318369}}.
+
+\bibitem{PLC_drawbacks}
+T.~Papadopoulos, C.~Kaloudas, A.~Chrysochos, G.~Papagiannis, Application of
+  narrowband power-line communication in medium-voltage smart distribution
+  grids, Power Delivery, IEEE Trans. on 28~(2) (2013) 981--988.
+\newblock \href {http://dx.doi.org/10.1109/TPWRD.2012.2230344}
+  {\path{doi:10.1109/TPWRD.2012.2230344}}.
+
+\bibitem{celullar_iot}
+C.~Bontu, S.~Periyalwar, M.~Pecen, Wireless wide-area networks for internet of
+  things: An air interface protocol for iot and a simultaneous access channel
+  for uplink iot communication, Vehicular Technology Magazine, IEEE 9~(1)
+  (2014) 54--63.
+\newblock \href {http://dx.doi.org/10.1109/MVT.2013.2295068}
+  {\path{doi:10.1109/MVT.2013.2295068}}.
+
+\bibitem{RFC4944}
+G.~Montenegro, N.~Kushalnagar, J.~Hui, D.~Culler, Transmission of ipv6 packets
+  over ieee 802.15.4 networks, IETF RFC 4944 (2007).
+
+\bibitem{RFC6550}
+T.~Winter, P.~Thubert, A.~Brandt, J.~Hui, R.~Kelsey, P.~Levis, K.~Pister,
+  R.~Struik, J.~Vasseur, R.~Alexander,
+  \href{http://www.ietf.org/rfc/rfc6550.txt}{Rpl: Ipv6 routing protocol for
+  low-power and lossy networks}, RFC 6550 (Proposed Standard) (Mar. 2012).
+\newline\urlprefix\url{http://www.ietf.org/rfc/rfc6550.txt}
+
+\bibitem{IPv6_LLN_2010}
+J.~Hui, D.~Culler, Ipv6 in low-power wireless networks, Proceedings of the IEEE
+  98~(11) (2010) 1865--1878.
+\newblock \href {http://dx.doi.org/10.1109/JPROC.2010.2065791}
+  {\path{doi:10.1109/JPROC.2010.2065791}}.
+
+\bibitem{Heurtefeux_RPL_2013}
+K.~Heurtefeux, H.~Menouar, Experimental evaluation of a routing protocol for
+  wireless sensor networks: Rpl under study, in: Wireless and Mobile Networking
+  Conference (WMNC), 2013 6th Joint IFIP, 2013, pp. 1--4.
+\newblock \href {http://dx.doi.org/10.1109/WMNC.2013.6548990}
+  {\path{doi:10.1109/WMNC.2013.6548990}}.
+
+\bibitem{P2P_analysis_2010}
+W.~Xie, M.~Goyal, H.~Hosseini, J.~Martocci, Y.~Bashir, E.~Baccelli, A.~Durresi,
+  A performance analysis of point-to-point routing along a directed acyclic
+  graph in low power and lossy networks, in: Network-Based Information Systems
+  (NBiS), 2010 13th Int. Conf. on, 2010, pp. 111 --116.
+\newblock \href {http://dx.doi.org/10.1109/NBiS.2010.65}
+  {\path{doi:10.1109/NBiS.2010.65}}.
+
+\bibitem{P2P-RPL_2011}
+E.~Baccelli, M.~Philipp, M.~Goyal, The p2p-rpl routing protocol for ipv6 sensor
+  networks: Testbed experiments, in: Software, Telecommunications and Computer
+  Networks, 2011 19th Int. Conf., 2011, pp. 1 --6.
+
+\bibitem{Karp_GPSR_2000}
+B.~Karp, H.~T. Kung, Gpsr: Greedy perimeter stateless routing for wireless
+  networks, in: Proceedings of the 6th Annual Int. Conf. on Mobile Computing
+  and Networking, MobiCom '00, ACM, New York, NY, USA, 2000, pp. 243--254.
+\newblock \href {http://dx.doi.org/10.1145/345910.345953}
+  {\path{doi:10.1145/345910.345953}}.
+
+\bibitem{GOAFR_2008}
+F.~Kuhn, R.~Wattenhofer, A.~Zollinger, An algorithmic approach to geographic
+  routing in ad hoc and sensor networks, Networking, IEEE/ACM Transactions on
+  16~(1) (2008) 51--62.
+\newblock \href {http://dx.doi.org/10.1109/TNET.2007.900372}
+  {\path{doi:10.1109/TNET.2007.900372}}.
+
+\bibitem{Denardin2011}
+G.~W. Denardin, C.~H. Barriquello, A.~Campos, R.~N. do~Prado, A geographic
+  routing hybrid approach for void resolution in wireless sensor networks,
+  Journal of Systems and Software 84~(10) (2011) 1577 -- 1590.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1016/j.jss.2011.03.030}
+  {\path{doi:http://dx.doi.org/10.1016/j.jss.2011.03.030}}.
+
+\bibitem{Denardin2009}
+G.~Denardin, C.~Barriquello, R.~Pinto, M.~Silva, A.~Campos, R.~do~Prado, An
+  intelligent system for street lighting control and measurement, in: Industry
+  Applications Society Annual Meeting, 2009. IEEE, 2009, pp. 1 --5.
+\newblock \href {http://dx.doi.org/10.1109/IAS.2009.5324800}
+  {\path{doi:10.1109/IAS.2009.5324800}}.
+
+\bibitem{Pantoni_2011}
+R.~Pantoni, D.~Brandao, A confirmation-based geocast routing algorithm for
+  street lighting systems, Computers \& Electrical Engineering 37~(6) (2011)
+  1147 -- 1159.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.compeleceng.2011.06.004}
+  {\path{doi:http://dx.doi.org/10.1016/j.compeleceng.2011.06.004}}.
+
+\bibitem{daFonseca_2015}
+C.~C. da~Fonseca, R.~P. Pantoni, D.~Brandão, Public street lighting remote
+  operation and supervision system, Computer Standards \& Interfaces 38~(0)
+  (2015) 25 -- 34.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1016/j.csi.2014.08.003}
+  {\path{doi:http://dx.doi.org/10.1016/j.csi.2014.08.003}}.
+
+\bibitem{SmartCity_ITS_2013}
+A.~Somov, C.~Dupont, R.~Giaffreda, Supporting smart-city mobility with
+  cognitive internet of things, in: Future Network and Mobile Summit
+  (FutureNetworkSummit), 2013, 2013, pp. 1--10.
+
+\bibitem{RFC6282}
+J.~Hui, P.~Thubert, Compression format for ipv6 datagrams over ieee
+  802.15.4-based networks, IETF RFC 6282 (2011).
+
+\bibitem{Mulligan_6LoWPAN_2007}
+G.~Mulligan, The 6lowpan architecture, in: Proc. of the 4th Workshop on
+  Embedded Networked Sensors, EmNets '07, ACM, New York, NY, USA, 2007, pp.
+  78--82.
+\newblock \href {http://dx.doi.org/10.1145/1278972.1278992}
+  {\path{doi:10.1145/1278972.1278992}}.
+
+\bibitem{RFC7102}
+J.~Vasseur, \href{http://tools.ietf.org/html/rfc7102t}{Terms used in routing
+  for low-power and lossy networks}, RFC7102 (Jan. 2014).
+\newline\urlprefix\url{http://tools.ietf.org/html/rfc7102t}
+
+\bibitem{RFC4443}
+A.~Conta, S.~Deering, M.~Gupta,
+  \href{http://tools.ietf.org/html/rfc792}{Internet control message protocol
+  (icmpv6) for the internet protocol version 6 (ipv6) specification}, RFC4443
+  (Mar. 2006).
+\newline\urlprefix\url{http://tools.ietf.org/html/rfc792}
+
+\bibitem{trickle}
+P.~Levis, N.~Patel, D.~Culler, S.~Shenker, Trickle: A self-regulating algorithm
+  for code propagation and maintenance in wireless sensor networks, in: In
+  Proc. of the First USENIX/ACM Symp. on Networked Systems Design and
+  Implementation, 2004, pp. 15--28.
+
+\bibitem{herberg}
+T.~Clausen, U.~Herberg, Some considerations on routing in particular and lossy
+  environments, Rapport de recherche n° 7540 (February 2011).
+
+\bibitem{RPL_observations}
+T.~Clausen, A.~C. de~Verdiere, J.~Yi, U.~Herberg, Y.~Igarashi,
+  \href{http://tools.ietf.org/html/draft-clausen-lln-rpl-experiences-05}{Observations
+  of rpl: Ipv6 routing protocol for low power and lossy networks},
+  Internet-Draft (Jan. 2014).
+\newline\urlprefix\url{http://tools.ietf.org/html/draft-clausen-lln-rpl-experiences-05}
+
+\bibitem{LOADng_2012}
+T.~Clausen, A.~C. de~Verdiere, J.~Yi, A.~Niktash, Y.~Igarashi, H.~Satoh,
+  U.~Herberg, C.~Lavenu, T.~Lys, J.~Dean,
+  \href{http://tools.ietf.org/html/draft-clausen-lln-loadng-12}{The lln
+  on-demand ad-hoc distance-vector routing protocol-next generation (loadng)},
+  DRAFT (October 2014).
+\newline\urlprefix\url{http://tools.ietf.org/html/draft-clausen-lln-loadng-12}
+
+\bibitem{Tripathi2014}
+J.~Tripathi, J.~C. de~Oliveira, J.~Vasseur, Proactive versus reactive routing
+  in low power and lossy networks: Performance analysis and scalability
+  improvements, Ad Hoc Networks 23~(0) (2014) 121 -- 144.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.adhoc.2014.06.007}
+  {\path{doi:http://dx.doi.org/10.1016/j.adhoc.2014.06.007}}.
+
+\bibitem{Vucinic_2013}
+M.~Vucinic, B.~Tourancheau, A.~Duda, Performance comparison of the rpl and
+  loadng routing protocols in a home automation scenario, in: Wireless
+  Communications and Networking Conference (WCNC), 2013 IEEE, 2013, pp.
+  1974--1979.
+\newblock \href {http://dx.doi.org/10.1109/WCNC.2013.6554867}
+  {\path{doi:10.1109/WCNC.2013.6554867}}.
+
+\bibitem{survey_2007}
+D.~Chen, P.~Varshney, A survey of void handling techniques for geographic
+  routing in wireless networks, Communications Surveys Tutorials, IEEE 9~(1)
+  (2007) 50 --67.
+\newblock \href {http://dx.doi.org/10.1109/COMST.2007.358971}
+  {\path{doi:10.1109/COMST.2007.358971}}.
+
+\bibitem{WSN_routing}
+J.~Al-Karaki, A.~Kamal, Routing techniques in wireless sensor networks: a
+  survey, Wireless Communications, IEEE 11~(6) (2004) 6--28.
+\newblock \href {http://dx.doi.org/10.1109/MWC.2004.1368893}
+  {\path{doi:10.1109/MWC.2004.1368893}}.
+
+\bibitem{OSM}
+M.~Haklay, P.~Weber, Openstreetmap: User-generated street maps, Pervasive
+  Computing, IEEE 7~(4) (2008) 12--18.
+\newblock \href {http://dx.doi.org/10.1109/MPRV.2008.80}
+  {\path{doi:10.1109/MPRV.2008.80}}.
 
 \end{thebibliography}
