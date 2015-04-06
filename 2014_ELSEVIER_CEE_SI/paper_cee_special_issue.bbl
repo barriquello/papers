@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{38}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -20,8 +20,8 @@
   \bibinfo{author}{Goyal, M.}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{The p2p-rpl routing protocol for ipv6 sensor
   networks: Testbed experiments}, in: \bibinfo{booktitle}{Software,
-  Telecommunications and Computer Networks (SoftCOM), 2011 19th Int. Conf.},
-  pp. \bibinfo{pages}{1 --6}.
+  Telecommunications and Computer Networks, 2011 19th Int. Conf.}, pp.
+  \bibinfo{pages}{1 --6}.
 %Type = Article
 \bibitem[{Bontu et~al.(2014)Bontu, Periyalwar and Pecen}]{celullar_iot}
 \bibinfo{author}{Bontu, C.}, \bibinfo{author}{Periyalwar, S.},
@@ -40,16 +40,6 @@
   \bibinfo{booktitle}{Advanced Information Networking and Applications
   Workshops (WAINA), 2013 27th International Conference on}, pp.
   \bibinfo{pages}{1374--1379}.
-%Type = Inproceedings
-\bibitem[{Cenedese et~al.(2014)Cenedese, Zanella, Vangelista and
-  Zorzi}]{Smart_City_IOT_2014c}
-\bibinfo{author}{Cenedese, A.}, \bibinfo{author}{Zanella, A.},
-  \bibinfo{author}{Vangelista, L.}, \bibinfo{author}{Zorzi, M.},
-  \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{Padova smart city: An urban internet of things
-  experimentation}, in: \bibinfo{booktitle}{A World of Wireless, Mobile and
-  Multimedia Networks (WoWMoM), 2014 IEEE 15th Int. Symp. on}, pp.
-  \bibinfo{pages}{1--6}.
 %Type = Article
 \bibitem[{Chen and Varshney(2007)}]{survey_2007}
 \bibinfo{author}{Chen, D.}, \bibinfo{author}{Varshney, P.},
@@ -112,15 +102,6 @@
 \newblock \bibinfo{title}{An intelligent system for street lighting control and
   measurement}, in: \bibinfo{booktitle}{Industry Applications Society Annual
   Meeting, 2009. IEEE}, pp. \bibinfo{pages}{1 --5}.
-%Type = Inproceedings
-\bibitem[{Denardin et~al.(2003)Denardin, Silveira, do~Prado and
-  Campos}]{PLC_Street_Lighting_2003}
-\bibinfo{author}{Denardin, G.}, \bibinfo{author}{Silveira, R.},
-  \bibinfo{author}{do~Prado, R.}, \bibinfo{author}{Campos, A.},
-  \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{Specifications for a power management fieldbus}, in:
-  \bibinfo{booktitle}{Industrial Electronics Society, 2003. IECON '03. The 29th
-  Annual Conf. of the IEEE}, pp. \bibinfo{pages}{1272 -- 1277 Vol.2}.
 %Type = Article
 \bibitem[{Denardin et~al.(2011)Denardin, Barriquello, Campos and
   do~Prado}]{Denardin2011}
@@ -140,23 +121,6 @@
   supervision system}.
 \newblock \bibinfo{journal}{Computer Standards \& Interfaces}
   \bibinfo{volume}{38}, \bibinfo{pages}{25 -- 34}.
-%Type = Inproceedings
-\bibitem[{Ganchev et~al.(2014)Ganchev, Ji and O'Droma}]{Smart_City_IOT_2014d}
-\bibinfo{author}{Ganchev, I.}, \bibinfo{author}{Ji, Z.},
-  \bibinfo{author}{O'Droma, M.}, \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{A generic iot architecture for smart cities}, in:
-  \bibinfo{booktitle}{Irish Signals Systems Conference 2014 and 2014
-  China-Ireland International Conference on Information and Communications
-  Technologies (ISSC 2014/CIICT 2014). 25th IET}, pp.
-  \bibinfo{pages}{196--199}.
-%Type = Inproceedings
-\bibitem[{Giordano et~al.(2001)Giordano, Stojmenovic and
-  Blazevic}]{Position_Based_Routing_Ad_Hoc_2001}
-\bibinfo{author}{Giordano, S.}, \bibinfo{author}{Stojmenovic, I.},
-  \bibinfo{author}{Blazevic, L.}, \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{Position based routing algorithms for ad hoc
-  networks: A taxonomy}, in: \bibinfo{booktitle}{Ad Hoc Wireless Networking},
-  \bibinfo{publisher}{Kluwer}. pp. \bibinfo{pages}{103--136}.
 %Type = Article
 \bibitem[{Haklay and Weber(2008)}]{OSM}
 \bibinfo{author}{Haklay, M.}, \bibinfo{author}{Weber, P.},
@@ -195,14 +159,6 @@
 \newblock \bibinfo{journal}{Internet of Things Journal, IEEE}
   \bibinfo{volume}{1}, \bibinfo{pages}{112--121}.
 %Type = Inproceedings
-\bibitem[{Jing et~al.(2010)Jing, Ren and Gu}]{WSN_Street_Lighting_2010_2}
-\bibinfo{author}{Jing, C.}, \bibinfo{author}{Ren, L.}, \bibinfo{author}{Gu,
-  D.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{Geographical routing for wsn of street lighting
-  monitoring and control system}, in: \bibinfo{booktitle}{Computer Design and
-  Applications (ICCDA), 2010 International Conference on}, pp.
-  \bibinfo{pages}{V3--235 --V3--238}.
-%Type = Inproceedings
 \bibitem[{Jing et~al.(2007)Jing, Shu and Gu}]{WSN_Street_lighting_2007}
 \bibinfo{author}{Jing, C.}, \bibinfo{author}{Shu, D.}, \bibinfo{author}{Gu,
   D.}, \bibinfo{year}{2007}.
@@ -217,19 +173,6 @@
   networks}, in: \bibinfo{booktitle}{Proceedings of the 6th Annual Int. Conf.
   on Mobile Computing and Networking}, \bibinfo{publisher}{ACM},
   \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{243--254}.
-%Type = Inproceedings
-\bibitem[{Ko et~al.(2011)Ko, Eriksson, Tsiftes, Dawson-Haggerty, Vasseur,
-  Durvy, Terzis, Dunkels and Culler}]{IPv6_LLN_2011}
-\bibinfo{author}{Ko, J.}, \bibinfo{author}{Eriksson, J.},
-  \bibinfo{author}{Tsiftes, N.}, \bibinfo{author}{Dawson-Haggerty, S.},
-  \bibinfo{author}{Vasseur, J.P.}, \bibinfo{author}{Durvy, M.},
-  \bibinfo{author}{Terzis, A.}, \bibinfo{author}{Dunkels, A.},
-  \bibinfo{author}{Culler, D.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{Industry: Beyond interoperability: Pushing the
-  performance of sensor network ip stacks}, in: \bibinfo{booktitle}{Proc. of
-  the 9th ACM Conf. on Embedded Networked Sensor Systems},
-  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
-  \bibinfo{pages}{1--11}.
 %Type = Article
 \bibitem[{Kuhn et~al.(2008)Kuhn, Wattenhofer and Zollinger}]{GOAFR_2008}
 \bibinfo{author}{Kuhn, F.}, \bibinfo{author}{Wattenhofer, R.},
@@ -239,15 +182,6 @@
 \newblock \bibinfo{journal}{Networking, IEEE/ACM Transactions on}
   \bibinfo{volume}{16}, \bibinfo{pages}{51--62}.
 %Type = Inproceedings
-\bibitem[{Lee et~al.(2006)Lee, Nam, Jeong, Choi, Ryoo and
-  Kim}]{WSN_Street_lighting_2006}
-\bibinfo{author}{Lee, J.}, \bibinfo{author}{Nam, K.}, \bibinfo{author}{Jeong,
-  S.}, \bibinfo{author}{Choi, S.}, \bibinfo{author}{Ryoo, H.},
-  \bibinfo{author}{Kim, D.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{Development of zigbee based street light control
-  system}, in: \bibinfo{booktitle}{Power Systems Conference and Exposition,
-  2006. PSCE '06. 2006 IEEE PES}, pp. \bibinfo{pages}{2236 --2240}.
-%Type = Inproceedings
 \bibitem[{Levis et~al.(2004)Levis, Patel, Culler and Shenker}]{trickle}
 \bibinfo{author}{Levis, P.}, \bibinfo{author}{Patel, N.},
   \bibinfo{author}{Culler, D.}, \bibinfo{author}{Shenker, S.},
@@ -256,22 +190,6 @@
   propagation and maintenance in wireless sensor networks}, in:
   \bibinfo{booktitle}{In Proc. of the First USENIX/ACM Symp. on Networked
   Systems Design and Implementation}, pp. \bibinfo{pages}{15--28}.
-%Type = Inproceedings
-\bibitem[{Liu et~al.(2009)Liu, Qi, Liu, zhi Yu and
-  Sun}]{Cellular_Street_Lighting_2009_1}
-\bibinfo{author}{Liu, D.}, \bibinfo{author}{Qi, S.}, \bibinfo{author}{Liu, T.},
-  \bibinfo{author}{zhi Yu, S.}, \bibinfo{author}{Sun, F.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{The design and realization of communication
-  technology for street lamps control system}, in: \bibinfo{booktitle}{Computer
-  Science Education, 2009. ICCSE '09. 4th Int. Conf. on}, pp.
-  \bibinfo{pages}{259 --262}.
-%Type = Inproceedings
-\bibitem[{Long and Zhou(2008)}]{CRI_2008}
-\bibinfo{author}{Long, X.}, \bibinfo{author}{Zhou, J.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{An intelligent driver for light emitting diode street
-  lighting}, in: \bibinfo{booktitle}{Automation Congress, 2008. WAC 2008.
-  World}, pp. \bibinfo{pages}{1 --5}.
 %Type = Inproceedings
 \bibitem[{Maizonave et~al.(2006)Maizonave, Dos~Reis, Lima, Bombardieri,
   Chiapetta, Ceccon, Souza, Tonkoski and Dos~Reis}]{PLC_Street_Lighting_2006}
@@ -309,21 +227,13 @@
   \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
   \bibinfo{pages}{78--82}.
 %Type = Article
-\bibitem[{Pantoni and Brandão(2011)}]{Pantoni_2011}
-\bibinfo{author}{Pantoni, R.}, \bibinfo{author}{Brandão, D.},
+\bibitem[{Pantoni and Brandao(2011)}]{Pantoni_2011}
+\bibinfo{author}{Pantoni, R.}, \bibinfo{author}{Brandao, D.},
   \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{A confirmation-based geocast routing algorithm for
   street lighting systems}.
 \newblock \bibinfo{journal}{Computers \& Electrical Engineering}
   \bibinfo{volume}{37}, \bibinfo{pages}{1147 -- 1159}.
-%Type = Article
-\bibitem[{Pantoni and Brandão(2013)}]{Pantoni_2013}
-\bibinfo{author}{Pantoni, R.P.}, \bibinfo{author}{Brandão, D.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{A gradient based routing scheme for street lighting
-  wireless sensor networks}.
-\newblock \bibinfo{journal}{Journal of Network and Computer Applications}
-  \bibinfo{volume}{36}, \bibinfo{pages}{77 -- 90}.
 %Type = Article
 \bibitem[{Papadopoulos et~al.(2013)Papadopoulos, Kaloudas, Chrysochos and
   Papagiannis}]{PLC_drawbacks}
@@ -358,35 +268,6 @@
 \newblock \bibinfo{title}{Smart city and the applications}, in:
   \bibinfo{booktitle}{Electronics, Communications and Control (ICECC), 2011
   Int. Conf. on}, pp. \bibinfo{pages}{1028--1031}.
-%Type = Inproceedings
-\bibitem[{Subramanian et~al.(2007)Subramanian, Shakkottai and
-  Gupta}]{On_Optimal_Geographic_Routing_2007}
-\bibinfo{author}{Subramanian, S.}, \bibinfo{author}{Shakkottai, S.},
-  \bibinfo{author}{Gupta, P.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{On optimal geographic routing in wireless networks
-  with holes and non-uniform traffic}, in: \bibinfo{booktitle}{INFOCOM 2007.
-  26th IEEE Int. Conf. on Computer Communications. IEEE}, pp.
-  \bibinfo{pages}{1019 --1027}.
-%Type = Inproceedings
-\bibitem[{Tei and Gurgen(2014)}]{Smart_City_IOT_2014e}
-\bibinfo{author}{Tei, K.}, \bibinfo{author}{Gurgen, L.}, \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{Clout : Cloud of things for empowering the citizen
-  clout in smart cities}, in: \bibinfo{booktitle}{Internet of Things (WF-IoT),
-  2014 IEEE World Forum on}, pp. \bibinfo{pages}{369--370}.
-%Type = Inproceedings
-\bibitem[{Theodoridis et~al.(2013)Theodoridis, Mylonas and
-  Chatzigiannakis}]{Smart_City_IOT_2013}
-\bibinfo{author}{Theodoridis, E.}, \bibinfo{author}{Mylonas, G.},
-  \bibinfo{author}{Chatzigiannakis, I.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{Developing an iot smart city framework}, in:
-  \bibinfo{booktitle}{Information, Intelligence, Systems and Applications
-  (IISA), 2013 Fourth International Conference on}, pp. \bibinfo{pages}{1--6}.
-%Type = Book
-\bibitem[{Thulasiraman and Swamy(1992)}]{DAGS_1992}
-\bibinfo{author}{Thulasiraman, K.}, \bibinfo{author}{Swamy, N.},
-  \bibinfo{year}{1992}.
-\newblock \bibinfo{title}{Graphs: Theory and Algorithms}.
-\newblock A Wiley interscience publication, \bibinfo{publisher}{Wiley}.
 %Type = Article
 \bibitem[{Tripathi et~al.(2014)Tripathi, de~Oliveira and
   Vasseur}]{Tripathi2014}
