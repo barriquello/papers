@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  6 APR 2015 13:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.23)  6 APR 2015 15:55
 entering extended mode
 **paper_cee_special_issue.tex
 
@@ -908,7 +908,7 @@ Package epstopdf Info: Source file: <RPL_DIO.eps>
 f RPL_DIO.eps>
 (epstopdf)             \includegraphics on input line 245.
 Package epstopdf Info: Output file is already uptodate.
- <RPL_DIO-eps-converted-to.pdf, id=44, 290.08376pt x 223.83624pt>
+ <RPL_DIO-eps-converted-to.pdf, id=45, 290.08376pt x 223.83624pt>
 File: RPL_DIO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use RPL_DIO-eps-converted-to.pdf>
@@ -927,7 +927,7 @@ f RPL_DAO.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<RPL_DAO-eps-converted-to.pdf, id=57, 442.65375pt x 158.5925pt>
+<RPL_DAO-eps-converted-to.pdf, id=58, 442.65375pt x 158.5925pt>
 File: RPL_DAO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use RPL_DAO-eps-converted-to.pdf>
@@ -950,7 +950,7 @@ ted-to.pdf sample_scenarios.eps>
 (epstopdf)             \includegraphics on input line 366.
 Package epstopdf Info: Output file is already uptodate.
 
-<sample_scenarios-eps-converted-to.pdf, id=94, 1513.655pt x 282.05376pt>
+<sample_scenarios-eps-converted-to.pdf, id=95, 1513.655pt x 282.05376pt>
 File: sample_scenarios-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sample_scenarios-eps-converted-to.pdf>
@@ -968,7 +968,7 @@ Package epstopdf Info: Source file: <hops_range.eps>
 (epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
 
-<hops_range-eps-converted-to.pdf, id=95, 420.57124pt x 316.18124pt>
+<hops_range-eps-converted-to.pdf, id=96, 420.57124pt x 316.18124pt>
 File: hops_range-eps-converted-to.pdf Graphic file (type pdf)
 
 <use hops_range-eps-converted-to.pdf>
@@ -989,7 +989,7 @@ ed-to.pdf mem_usage_range.eps>
 (epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
 
-<mem_usage_range-eps-converted-to.pdf, id=108, 420.57124pt x 316.18124pt>
+<mem_usage_range-eps-converted-to.pdf, id=109, 420.57124pt x 316.18124pt>
 File: mem_usage_range-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mem_usage_range-eps-converted-to.pdf>
@@ -1015,7 +1015,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--503
 
 [31]
 (C:\DADOS_LOCAIS\GITHUB\papers\2014_ELSEVIER_CEE_SI\paper_cee_special_issue.aux
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  21848 strings out of 494045
  517111 string characters out of 3148341
@@ -1023,21 +1027,22 @@ Here is how much of TeX's memory you used:
  24647 multiletter control sequences out of 15000+200000
  14284 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,8n,74p,1501b,785s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on paper_cee_special_issue.pdf (31 pages, 408773 bytes).
+ 63i,8n,74p,1682b,785s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on paper_cee_special_issue.pdf (31 pages, 417315 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
